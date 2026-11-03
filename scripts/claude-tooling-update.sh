@@ -103,6 +103,16 @@ SPEC_LATEST="$(gh api repos/github/spec-kit/releases/latest --jq .tag_name 2>/de
 SPEC_CUR="$(specify --version 2>/dev/null | tr -dc '0-9.' || echo '?')"
 if [ "$SPEC_LATEST" != "?" ] && [ "v$SPEC_CUR" != "$SPEC_LATEST" ]; then say "  specify-cli: v$SPEC_CUR -> $SPEC_LATEST   [UPDATE AVAILABLE]"; CHANGES=$((CHANGES+1)); else say "  specify-cli: v$SPEC_CUR -> $SPEC_LATEST (unchanged)"; fi
 
+hr; say "5. graphify (PyPI graphifyy)"
+GRAPHIFY_CUR="$(graphify --version 2>/dev/null | tr -dc '0-9.' || echo '?')"
+GRAPHIFY_LATEST="$(curl -fsSL https://pypi.org/pypi/graphifyy/json 2>/dev/null | python3 -c 'import json,sys; print(json.load(sys.stdin)["info"]["version"])' 2>/dev/null || echo '?')"
+if [ "$GRAPHIFY_LATEST" != "?" ] && [ "$GRAPHIFY_CUR" != "$GRAPHIFY_LATEST" ]; then say "  graphifyy: $GRAPHIFY_CUR -> $GRAPHIFY_LATEST   [UPDATE AVAILABLE]"; CHANGES=$((CHANGES+1)); else say "  graphifyy: $GRAPHIFY_CUR -> $GRAPHIFY_LATEST (unchanged)"; fi
+
+hr; say "6. rtk (Homebrew)"
+RTK_CUR="$(rtk --version 2>/dev/null | tr -dc '0-9.' || echo '?')"
+RTK_OUTDATED="$(brew outdated --quiet rtk 2>/dev/null || true)"
+if [ -n "$RTK_OUTDATED" ]; then say "  rtk: $RTK_CUR -> $(brew info --json=v2 rtk 2>/dev/null | python3 -c 'import json,sys; print(json.load(sys.stdin)["formulae"][0]["versions"]["stable"])' 2>/dev/null || echo newer)   [UPDATE AVAILABLE]"; CHANGES=$((CHANGES+1)); else say "  rtk: $RTK_CUR (unchanged)"; fi
+
 hr
 if [ "$CHANGES" -eq 0 ]; then say "Nothing to update."; exit 0; fi
 [ "$MODE" = "check" ] && { say "$CHANGES update(s) available. Re-run without --check to apply."; exit 0; }
@@ -129,6 +139,13 @@ if [ "$SPEC_LATEST" != "?" ] && [ "v$SPEC_CUR" != "$SPEC_LATEST" ]; then
   uv tool install --force "specify-cli @ git+https://github.com/github/spec-kit.git@$SPEC_LATEST" >/dev/null && say "  specify-cli -> $SPEC_LATEST"
 fi
 
+if [ "$GRAPHIFY_LATEST" != "?" ] && [ "$GRAPHIFY_CUR" != "$GRAPHIFY_LATEST" ]; then
+  uv tool install --force "graphifyy==$GRAPHIFY_LATEST" >/dev/null && graphify install >/dev/null 2>&1 && say "  graphifyy -> $GRAPHIFY_LATEST (skill re-installed)"
+fi
+if [ -n "$RTK_OUTDATED" ]; then
+  brew upgrade rtk >/dev/null 2>&1 && printf 'n\nn\nn\n' | RTK_ONRAMP_DISABLED=1 rtk init -g --auto-patch >/dev/null 2>&1 && say "  rtk upgraded, hook re-registered"
+fi
+
 hr; say "Re-asserting safety settings"
 python3 - "$CLAUDE_DIR/settings.json" <<'PY'
 import json, sys
@@ -141,4 +158,13 @@ else:
     print("  ecc hooks_enabled is false")
 PY
 for f in "$CLAUDE_DIR"/plugins/cache/ecc/ecc/*/.mcp.json; do [ -f "$f" ] && mv "$f" "$f.disabled-by-user" && say "  renamed $(basename "$(dirname "$f")")/.mcp.json (chrome-devtools MCP stays off)"; done
+command -v rtk >/dev/null 2>&1 && { rtk telemetry disable >/dev/null 2>&1 && say "  rtk telemetry off"; }
+python3 - "$CLAUDE_DIR/settings.json" <<'PY'
+import json, sys
+p = sys.argv[1]; s = json.load(open(p))
+if s.setdefault("env", {}).get("RTK_RECALL") != "0":
+    s["env"]["RTK_RECALL"] = "0"; json.dump(s, open(p, "w"), indent=2); print("  RTK_RECALL=0 restored")
+else:
+    print("  RTK_RECALL=0 is set")
+PY
 say "Done. Restart Claude Code sessions to pick up plugin updates."

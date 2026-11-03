@@ -18,8 +18,10 @@ A copy of this guide lives at `~/.claude/TOOLING.md`. The update script is `scri
 | agency-agents | 97 agent files in `~/.claude/agents/` | `b37b5bb3` | 97 agent descriptions | none | 16 personas declare WebFetch/WebSearch tools |
 | spec-kit | `uv tool install specify-cli` from git tag | v1.2.6 | 10 project skills after `specify init` | none by default | `specify self upgrade` reaches the network |
 | ui-ux-pro-max-skill | plugin `ui-ux-pro-max@ui-ux-pro-max-skill` | 2.15.0, `713eef51` | ~1,070 tok | none | design sub-skills read API keys from `~/.claude/.env` and call image APIs on invoke |
+| graphify | `uv tool install graphifyy==0.9.101` + `graphify install` | 0.9.101 | 3-line CLAUDE.md block + skill description | none at user scope | appends to `~/.claude/CLAUDE.md`; refreshes its skill files after upgrades; headless extraction uses any provider key set |
+| rtk | `brew install rtk` + `rtk init -g` | 1.1.0 | ~110 tok (RTK.md) | PreToolUse on every Bash call (on) | rewrites commands to `rtk <cmd>` and can auto-allow; logs raw commands locally; telemetry declined, recall off |
 
-Total always-on context added by the installed set: roughly 52,000 tokens per session, of which ECC is about 48,000. If that is too much, `claude plugin disable ecc@ecc` and re-enable it for sessions where you want its agents.
+Total always-on context added by the installed set: roughly 52,000 tokens per session, of which ECC is about 48,000; rtk reduces what Bash output costs on top of that. If that is too much, `claude plugin disable ecc@ecc` and re-enable it for sessions where you want its agents.
 
 ## 1. superpowers (obra/superpowers)
 
@@ -133,6 +135,43 @@ Total always-on context added by the installed set: roughly 52,000 tokens per se
 
 **Conflicts.** `design-system` skill name also exists in ECC; agency-agents has UI Designer and UX Researcher personas that do design work without this data.
 
+## 9. graphify (Graphify-Labs/graphify)
+
+**What and when.** Turns a codebase (or docs, papers, images) into a persistent knowledge graph with community detection, god nodes and query, path and explain tools. Use it on an unfamiliar codebase before asking architecture questions; once `graphify-out/` exists in a project, questions about the code go through the graph first.
+
+**Install.** `uv tool install "graphifyy==0.9.101"` (package name has a double y; binaries `graphify` and `graphify-mcp`), then `graphify install` at user scope. Files: `~/.claude/skills/graphify/SKILL.md` (48 KB, loads on invoke) plus `references/`, `.graphify_version`, and a 3-line `# graphify` block appended to `~/.claude/CLAUDE.md`. Nothing in settings.json. Caches under `~/.cache/graphify`, state under `~/.graphify/`.
+
+**Invoke.** `/graphify .` in a project builds the graph into `graphify-out/`; then ask normally ("what calls the refresh pipeline?") or `graphify query "..."`. An MCP server (`graphify-mcp`, tools query_graph, get_node, get_neighbors, god_nodes, shortest_path and others) exists but is not registered; add it with `claude mcp add --scope user graphify -- graphify-mcp` if you want tool access without the skill.
+
+**Hooks.** None at user scope. `graphify claude install` (project scope, not run) would add PreToolUse hooks on Bash, Grep, Read and Glob that nudge Claude toward the graph (fail-open, 5 nudges per session) and `graphify hook install` adds git post-commit hooks; neither was installed.
+
+**Network and keys.** Code extraction is local tree-sitter. The skill itself uses the host session as the LLM for docs and images; headless `graphify extract` picks a backend from whatever key is set (GEMINI, ANTHROPIC, OPENAI, and others), `GRAPHIFY_BACKEND=none` disables that. The skill self-installs the package if the import fails. No telemetry. Any non-trivial `graphify` command silently rewrites stale installed skill files after a package upgrade; `GRAPHIFY_NO_AUTO_REFRESH=1` stops that.
+
+**Update / uninstall.** The update script compares the installed version with the latest on PyPI; apply with `uv tool install --force "graphifyy==X.Y.Z"` then `graphify install`. Uninstall: `graphify uninstall` (removes skill and CLAUDE.md block), then `uv tool uninstall graphifyy`.
+
+**Conflicts.** ECC's `codebase-onboarding` skill and `code-explorer` agent cover similar ground without the graph. graphify's CLAUDE.md block tells Claude to use the skill whenever you type `/graphify`; nothing else is affected.
+
+## 10. rtk (rtk-ai/rtk)
+
+**What and when.** A Rust binary that compresses command output (git, cargo, npm, test runners, file listings) before it reaches the model, typically 60 to 90 percent fewer tokens per Bash call. Installed as a PreToolUse hook so it applies to every Bash command Claude runs; you can also call `rtk <cmd>` yourself.
+
+**Install.** `brew install rtk` (1.1.0; the CLI is Apache-2.0, the compression engine and proxy are BUSL-1.1 which forbids reselling or hosting it, not using it), then `rtk init -g --auto-patch` with the telemetry, proxy and Gemini-delegation prompts declined (`RTK_ONRAMP_DISABLED=1`). Files: `~/.claude/RTK.md` (453 bytes, referenced as `@RTK.md` from `~/.claude/CLAUDE.md`), a PreToolUse hook entry `{"matcher": "Bash", "command": "rtk hook claude"}` in `~/.claude/settings.json` (backup at `settings.json.bak`), config and filters under `~/Library/Application Support/rtk/`. `RTK_RECALL=0` is set in the Claude Code `env` so full command outputs are never stored; `rtk telemetry disable` was run.
+
+**Invoke.** Automatic. Check savings with `rtk gain`; see what a command would become with `rtk rewrite "git status"`; run anything unfiltered by prefixing `RTK_DISABLED=1`. Awareness level (how much RTK.md says) is set in `config.toml [awareness]`.
+
+**Hooks.** PreToolUse on every Bash call: reads the command, and for commands it knows returns `updatedInput` with `rtk` prefixed and `permissionDecision: allow`; unknown commands pass through untouched; always exits 0 (fail-open). Because rtk re-implements permission matching from the four settings files it reads, deny rules that live elsewhere (managed settings, `--disallowedTools`) degrade to an ask for rewritten commands. The hook adds no text to the model context. Disable: remove the hook entry (or `rtk init -g --uninstall`), or `exclude_commands` in config.toml for specific commands.
+
+**Network and data.** No phone-home: telemetry is opt-in and declined; the only outbound calls are to upstreams you configure (none). It keeps `history.db` (every raw command line and its rewrite) under `~/Library/Application Support/rtk/`; there is no opt-out for that log, so clear it if command lines may contain secrets.
+
+**Update / uninstall.** `brew upgrade rtk` then `rtk init -g` again (migrates the hook); the update script shows `brew outdated rtk`. Uninstall: `rtk init -g --uninstall` (removes hook, RTK.md and the CLAUDE.md line), then `brew uninstall rtk`, and remove `RTK_RECALL` from settings `env`.
+
+**Conflicts.** ECC's hooks also include Bash PreToolUse dispatchers; they are off, so rtk is the only Bash hook. caveman (not installed) attacks the same problem from the output side. superpowers and the review skills read command output and are unaffected by compression in practice, but if a skill needs raw output, prefix the command with `RTK_DISABLED=1`.
+
+## Reviewed and not installed
+
+- **claude-mem** (thedotmack/claude-mem 15.9.0, reviewed at `02584c4a`): persistent memory via a Bun daemon plus a Chroma sidecar, hooks on every prompt, every Read/Bash/Grep/Glob and every Stop, an observer that summarises tool activity through the Agent SDK on your Claude plan, a compiled binary written to `~/.local/bin` with a PATH line appended to `~/.zshrc`, PostHog telemetry on by default, raw tool I/O stored unencrypted in `~/.claude-mem`. Rejected in favour of Claude Code's built-in memory. If you ever want it: `/plugin marketplace add thedotmack/claude-mem`, `/plugin install claude-mem`, with `CLAUDE_MEM_TELEMETRY=0` and Bun installed first.
+- **graphify project hooks and git hooks**, **ponytail hooks and band**, **ECC hooks and its chrome-devtools MCP**: all available but left off, see the sections above.
+
 ## Which one when
 
 - New feature in a repo with a spec culture -> `specify init` then `/speckit-specify`, `/speckit-plan`, `/speckit-tasks`.
@@ -145,8 +184,9 @@ Total always-on context added by the installed set: roughly 52,000 tokens per se
 - UI work -> ui-ux-pro-max (describe the page) or `/ui-ux-pro-max:design-system` for tokens.
 - Language-specific build failure -> `ecc:build-error-resolver` or `/ecc:build-fix`.
 - Documents (docx, pdf, pptx, xlsx) -> the synced anthropic-skills document skills.
-- Unfamiliar codebase -> not covered by this set; graphify (rank 9 among Claude tooling) is the candidate if you add one.
+- Unfamiliar codebase -> `/graphify .` once, then ask architecture questions; `ecc:code-explorer` for a quick tour without the graph.
+- Long or noisy command output -> nothing to do, rtk compresses it; prefix `RTK_DISABLED=1` when a skill needs the raw text.
 
 ## Updating all of it
 
-Run `scripts/claude-tooling-update.sh` (or `~/.claude/claude-tooling-update.sh`). It refreshes the marketplaces, shows version and commit diffs for every pinned tool, and applies nothing until you answer yes. `--check` only shows the diff. After applying it re-asserts the two safety settings: ECC `hooks_enabled=false` and the renamed ECC `.mcp.json`.
+Run `scripts/claude-tooling-update.sh` (or `~/.claude/claude-tooling-update.sh`). It refreshes the marketplaces, shows version and commit diffs for every pinned tool (plugins, ponytail and agency-agents copies, spec-kit, graphify, rtk), and applies nothing until you answer yes. `--check` only shows the diff. After applying it re-asserts the safety settings: ECC `hooks_enabled=false`, the renamed ECC `.mcp.json`, rtk telemetry off and `RTK_RECALL=0`.
