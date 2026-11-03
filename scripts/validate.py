@@ -133,7 +133,7 @@ def previous_snapshot(day):
     if not files:
         return {}
     data = json.loads(files[-1].read_text())
-    return {p["id"]: p for p in data.get("projects", [])}
+    return {p["id"]: dict(p, date=data.get("date", files[-1].stem)) for p in data.get("projects", [])}
 
 
 def apply_integrity(projects, day, changes, warnings):
