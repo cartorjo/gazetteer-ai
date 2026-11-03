@@ -5,12 +5,12 @@
   repo: openclaw/openclaw
   category: assistants
   description: personal AI assistant on any OS and channel
-  stars: 393794
-  forks: 82769
+  stars: 393816
+  forks: 82784
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T09:03:35Z'
+  pushed_at: '2026-11-03T14:13:43Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -21,8 +21,8 @@
   repo: obra/superpowers
   category: agent-skills
   description: spec, plan, TDD and subagent-driven development skills
-  stars: 311441
-  forks: 27714
+  stars: 311616
+  forks: 27724
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -37,8 +37,8 @@
   repo: mattpocock/skills
   category: agent-skills
   description: small, composable engineering skills for coding agents
-  stars: 310646
-  forks: 26132
+  stars: 310949
+  forks: 26155
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -53,8 +53,8 @@
   repo: affaan-m/ECC
   category: agent-skills
   description: skills, instincts, memory and security for agent harnesses
-  stars: 295967
-  forks: 43789
+  stars: 296191
+  forks: 43818
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -69,8 +69,8 @@
   repo: deepseek-ai/deepseek-harness
   category: coding-agents
   description: '"everything is a plugin" agent harness'
-  stars: 270322
-  forks: 32864
+  stars: 270698
+  forks: 32900
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -85,12 +85,12 @@
   repo: NousResearch/hermes-agent
   category: assistants
   description: self-improving agent with a learning loop
-  stars: 260020
-  forks: 57272
+  stars: 260108
+  forks: 57307
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T08:58:10Z'
+  pushed_at: '2026-11-03T14:09:41Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -101,12 +101,12 @@
   repo: anomalyco/opencode
   category: coding-agents
   description: provider-agnostic terminal coding agent
-  stars: 224205
-  forks: 30160
+  stars: 224258
+  forks: 30177
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T05:39:29Z'
+  pushed_at: '2026-11-03T14:08:14Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -117,12 +117,12 @@
   repo: n8n-io/n8n
   category: agent-frameworks
   description: fair-code workflow automation with native AI agents
-  stars: 209427
-  forks: 61358
+  stars: 209438
+  forks: 61364
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: fair-code
-  pushed_at: '2026-11-03T08:57:26Z'
+  pushed_at: '2026-11-03T14:11:00Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -134,11 +134,11 @@
   category: foundations
   description: Google's end-to-end ML framework
   stars: 201282
-  forks: 78195
+  forks: 78200
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:53:00Z'
+  pushed_at: '2026-11-03T13:59:59Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -149,12 +149,12 @@
   repo: firecrawl/firecrawl
   category: data-rag
   description: web search, scrape and interact API for agents
-  stars: 198133
-  forks: 10466
+  stars: 198195
+  forks: 10469
   stars_checked: 2026-11-03
   license: AGPL-3.0
   license_flag: null
-  pushed_at: '2026-11-03T05:32:41Z'
+  pushed_at: '2026-11-03T12:51:59Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -165,12 +165,12 @@
   repo: Significant-Gravitas/AutoGPT
   category: agent-frameworks
   description: platform for building and running autonomous agents
-  stars: 187888
-  forks: 45901
+  stars: 187884
+  forks: 45903
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: mixed
-  pushed_at: '2026-11-03T08:40:24Z'
+  pushed_at: '2026-11-03T14:11:28Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -181,8 +181,8 @@
   repo: ollama/ollama
   category: inference
   description: run open models locally with one command
-  stars: 185754
-  forks: 18887
+  stars: 185783
+  forks: 18889
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -197,8 +197,8 @@
   repo: DietrichGebert/ponytail
   category: agent-skills
   description: simplicity and YAGNI decision discipline
-  stars: 183191
-  forks: 10121
+  stars: 183402
+  forks: 10131
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -213,8 +213,8 @@
   repo: anthropics/skills
   category: agent-skills
   description: Anthropic's public skills for Claude, from documents to MCP generation
-  stars: 186916
-  forks: 22072
+  stars: 186997
+  forks: 22082
   stars_checked: 2026-11-03
   license: null
   license_flag: mixed
@@ -229,12 +229,12 @@
   repo: huggingface/transformers
   category: foundations
   description: model-definition framework for text, vision, audio and multimodal
-  stars: 168483
-  forks: 35094
+  stars: 168488
+  forks: 35098
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T09:04:39Z'
+  pushed_at: '2026-11-03T14:12:01Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -245,12 +245,12 @@
   repo: langgenius/dify
   category: agent-frameworks
   description: agentic workflows and RAG pipelines in one workspace
-  stars: 160308
-  forks: 25350
+  stars: 160319
+  forks: 25355
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: modified-apache
-  pushed_at: '2026-11-03T09:01:53Z'
+  pushed_at: '2026-11-03T14:14:18Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -261,12 +261,12 @@
   repo: open-webui/open-webui
   category: chat-uis
   description: self-hosted UI for Ollama and OpenAI-compatible APIs
-  stars: 157621
-  forks: 22933
+  stars: 157643
+  forks: 22935
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: modified-bsd
-  pushed_at: '2026-11-03T08:36:05Z'
+  pushed_at: '2026-11-03T13:58:47Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -277,12 +277,12 @@
   repo: langflow-ai/langflow
   category: agent-frameworks
   description: visual builder for agents and workflows
-  stars: 156283
-  forks: 10315
+  stars: 156285
+  forks: 10320
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T03:33:25Z'
+  pushed_at: '2026-11-03T12:40:43Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -293,8 +293,8 @@
   repo: msitarzewski/agency-agents
   category: agent-skills
   description: roster of specialized expert agent personas
-  stars: 166194
-  forks: 26918
+  stars: 166237
+  forks: 26929
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -309,8 +309,8 @@
   repo: langchain-ai/langchain
   category: agent-frameworks
   description: the agent engineering framework
-  stars: 148931
-  forks: 25040
+  stars: 148941
+  forks: 25046
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -325,12 +325,12 @@
   repo: Comfy-Org/ComfyUI
   category: generative-media
   description: node-graph diffusion GUI, API and backend
-  stars: 144755
-  forks: 17255
+  stars: 144801
+  forks: 17260
   stars_checked: 2026-11-03
   license: GPL-3.0
   license_flag: null
-  pushed_at: '2026-11-03T09:01:15Z'
+  pushed_at: '2026-11-03T14:14:23Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -341,8 +341,8 @@
   repo: Graphify-Labs/graphify
   category: agent-memory
   description: queryable code and document knowledge graph
-  stars: 141442
-  forks: 13530
+  stars: 141590
+  forks: 13542
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -357,8 +357,8 @@
   repo: github/spec-kit
   category: agent-skills
   description: GitHub's spec-driven development toolkit
-  stars: 145989
-  forks: 13093
+  stars: 146281
+  forks: 13121
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -373,12 +373,12 @@
   repo: farion1231/cc-switch
   category: coding-agents
   description: desktop switcher for Claude Code, Codex, OpenCode and more
-  stars: 151408
-  forks: 9957
+  stars: 151473
+  forks: 9964
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T03:42:28Z'
+  pushed_at: '2026-11-03T10:29:47Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -389,8 +389,8 @@
   repo: harry0703/MoneyPrinterTurbo
   category: generative-media
   description: topic-to-HD short video pipeline
-  stars: 137802
-  forks: 22008
+  stars: 138053
+  forks: 22041
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -405,12 +405,12 @@
   repo: ggml-org/llama.cpp
   category: inference
   description: LLM inference in C/C++
-  stars: 133236
-  forks: 25088
+  stars: 133257
+  forks: 25096
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T08:54:52Z'
+  pushed_at: '2026-11-03T14:13:57Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -421,12 +421,12 @@
   repo: openai/codex
   category: coding-agents
   description: OpenAI's Rust terminal coding agent
-  stars: 132954
-  forks: 21033
+  stars: 132980
+  forks: 21045
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T07:06:22Z'
+  pushed_at: '2026-11-03T13:39:18Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -437,12 +437,12 @@
   repo: garrytan/gstack
   category: agent-skills
   description: opinionated Claude Code role toolkit (CEO, eng, QA)
-  stars: 138742
-  forks: 20564
+  stars: 138784
+  forks: 20572
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T09:04:42Z'
+  pushed_at: '2026-11-03T14:06:59Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -453,8 +453,8 @@
   repo: nextlevelbuilder/ui-ux-pro-max-skill
   category: agent-skills
   description: UI/UX design intelligence skill
-  stars: 144484
-  forks: 15291
+  stars: 144617
+  forks: 15301
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -469,8 +469,8 @@
   repo: browser-use/browser-use
   category: agent-frameworks
   description: Python library for AI browser agents
-  stars: 119905
-  forks: 13371
+  stars: 119931
+  forks: 13373
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -485,8 +485,8 @@
   repo: TauricResearch/TradingAgents
   category: vertical-apps
   description: multi-agent LLM trading framework
-  stars: 120108
-  forks: 22973
+  stars: 120182
+  forks: 22991
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -501,12 +501,12 @@
   repo: earendil-works/pi
   category: coding-agents
   description: unified LLM API, agent loop, TUI and coding CLI
-  stars: 119696
-  forks: 15367
+  stars: 119778
+  forks: 15373
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T08:34:40Z'
+  pushed_at: '2026-11-03T13:56:55Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -517,8 +517,8 @@
   repo: JuliusBrussee/caveman
   category: agent-skills
   description: token-cutting terse-output skill and proxy
-  stars: 117035
-  forks: 6800
+  stars: 117101
+  forks: 6807
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -533,12 +533,12 @@
   repo: paperclipai/paperclip
   category: assistants
   description: manage fleets of agents at work
-  stars: 110632
-  forks: 18310
+  stars: 110729
+  forks: 18324
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T08:38:06Z'
+  pushed_at: '2026-11-03T14:11:08Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -549,8 +549,8 @@
   repo: thedotmack/claude-mem
   category: agent-memory
   description: persistent cross-session agent memory
-  stars: 111158
-  forks: 9688
+  stars: 111408
+  forks: 9707
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -565,8 +565,8 @@
   repo: google-gemini/gemini-cli
   category: coding-agents
   description: Google's open-source Gemini terminal agent
-  stars: 108697
-  forks: 14916
+  stars: 108698
+  forks: 14921
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -581,8 +581,8 @@
   repo: Panniantong/Agent-Reach
   category: data-rag
   description: web, social and repo access with routing
-  stars: 108224
-  forks: 9656
+  stars: 108307
+  forks: 9663
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -597,12 +597,12 @@
   repo: pytorch/pytorch
   category: foundations
   description: tensors and dynamic neural nets with GPU acceleration
-  stars: 105103
-  forks: 31324
+  stars: 105100
+  forks: 31326
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: null
-  pushed_at: '2026-11-03T09:00:22Z'
+  pushed_at: '2026-11-03T14:12:27Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -613,12 +613,12 @@
   repo: nexu-io/open-design
   category: vertical-apps
   description: coding agent as design engine (prototypes, slides, video)
-  stars: 105622
-  forks: 12044
+  stars: 105663
+  forks: 12047
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T07:01:09Z'
+  pushed_at: '2026-11-03T11:13:21Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -629,8 +629,8 @@
   repo: addyosmani/agent-skills
   category: agent-skills
   description: production-grade engineering skills
-  stars: 112905
-  forks: 11819
+  stars: 112954
+  forks: 11823
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -645,12 +645,12 @@
   repo: vllm-project/vllm
   category: inference
   description: high-throughput, memory-efficient LLM serving
-  stars: 96191
-  forks: 24339
+  stars: 96220
+  forks: 24354
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:53:13Z'
+  pushed_at: '2026-11-03T13:57:09Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -661,12 +661,12 @@
   repo: tt-a1i/archify
   category: agent-memory
   description: codebases and plans as interactive diagrams
-  stars: 92919
-  forks: 6344
+  stars: 93025
+  forks: 6348
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T07:57:22Z'
+  pushed_at: '2026-11-03T11:24:12Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -677,12 +677,12 @@
   repo: OpenHands/OpenHands
   category: coding-agents
   description: AI-driven software development platform
-  stars: 92546
-  forks: 12342
+  stars: 92569
+  forks: 12345
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T06:17:23Z'
+  pushed_at: '2026-11-03T14:11:56Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -693,8 +693,8 @@
   repo: PaddlePaddle/PaddleOCR
   category: data-rag
   description: PDFs and images to LLM-ready structured data
-  stars: 92181
-  forks: 11615
+  stars: 92195
+  forks: 11619
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -709,12 +709,12 @@
   repo: infiniflow/ragflow
   category: data-rag
   description: RAG engine fused with agent capabilities
-  stars: 93409
-  forks: 11214
+  stars: 93427
+  forks: 11218
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:32:15Z'
+  pushed_at: '2026-11-03T13:09:26Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -725,8 +725,8 @@
   repo: Egonex-AI/Understand-Anything
   category: agent-memory
   description: interactive codebase knowledge graph
-  stars: 90098
-  forks: 7687
+  stars: 90163
+  forks: 7699
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -741,8 +741,8 @@
   repo: ChatGPTNextWeb/NextChat
   category: chat-uis
   description: lightweight cross-platform AI chat client
-  stars: 88939
-  forks: 58643
+  stars: 88938
+  forks: 58639
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -757,12 +757,12 @@
   repo: Leonxlnx/taste-skill
   category: agent-skills
   description: anti-generic "good taste" design skill
-  stars: 109078
-  forks: 7344
+  stars: 109268
+  forks: 7359
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T01:53:39Z'
+  pushed_at: '2026-11-03T14:12:47Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -773,12 +773,12 @@
   repo: koala73/worldmonitor
   category: vertical-apps
   description: AI-powered global news and situational dashboard
-  stars: 90046
-  forks: 13916
+  stars: 90059
+  forks: 13922
   stars_checked: 2026-11-03
   license: AGPL-3.0
   license_flag: null
-  pushed_at: '2026-11-03T09:00:26Z'
+  pushed_at: '2026-11-03T12:46:26Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -789,12 +789,12 @@
   repo: unclecode/crawl4ai
   category: data-rag
   description: any website to clean, LLM-ready Markdown
-  stars: 86812
-  forks: 9048
+  stars: 86823
+  forks: 9050
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-02T14:01:43Z'
+  pushed_at: '2026-11-03T14:10:53Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -805,12 +805,12 @@
   repo: rtk-ai/rtk
   category: coding-agents
   description: CLI proxy that compresses tool output to cut agent token use
-  stars: 85390
-  forks: 5469
+  stars: 85420
+  forks: 5471
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T06:27:26Z'
+  pushed_at: '2026-11-03T09:56:40Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -821,8 +821,8 @@
   repo: bytedance/deer-flow
   category: agent-frameworks
   description: deep research framework combining LLMs with search and tools
-  stars: 84925
-  forks: 11939
+  stars: 84938
+  forks: 11941
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -837,12 +837,12 @@
   repo: opendatalab/MinerU
   category: data-rag
   description: PDF to Markdown and JSON extraction for LLM pipelines
-  stars: 83036
-  forks: 6877
+  stars: 83053
+  forks: 6881
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: mixed
-  pushed_at: '2026-11-03T07:59:16Z'
+  pushed_at: '2026-11-03T12:08:44Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -853,12 +853,12 @@
   repo: lobehub/lobehub
   category: chat-uis
   description: self-hosted AI agent workspace with knowledge base and plugins
-  stars: 83751
-  forks: 16039
+  stars: 83772
+  forks: 16038
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: modified-apache
-  pushed_at: '2026-11-03T09:03:04Z'
+  pushed_at: '2026-11-03T14:13:19Z'
   archived: false
   status: ranked
   exclusion_reason: null
@@ -869,12 +869,12 @@
   repo: unslothai/unsloth
   category: training
   description: fast local fine-tuning and training UI
-  stars: 78992
+  stars: 79003
   forks: 7360
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:56:07Z'
+  pushed_at: '2026-11-03T14:14:16Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -885,12 +885,12 @@
   repo: hiyouga/LlamaFactory
   category: training
   description: unified fine-tuning of 100+ LLMs and VLMs
-  stars: 75862
-  forks: 9339
+  stars: 75868
+  forks: 9340
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-10-31T10:28:10Z'
+  pushed_at: '2026-11-03T12:54:27Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -901,12 +901,12 @@
   repo: ray-project/ray
   category: training
   description: distributed AI compute engine (Train, Data, Serve)
-  stars: 44190
-  forks: 8239
+  stars: 44192
+  forks: 8241
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:23:19Z'
+  pushed_at: '2026-11-03T14:08:35Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -917,12 +917,12 @@
   repo: NVIDIA/Megatron-LM
   category: training
   description: large-scale transformer training (Megatron Core)
-  stars: 18318
+  stars: 18319
   forks: 4699
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: null
-  pushed_at: '2026-11-03T09:02:59Z'
+  pushed_at: '2026-11-03T14:13:38Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -933,12 +933,12 @@
   repo: modelscope/ms-swift
   category: training
   description: PEFT, SFT, DPO and GRPO for 600+ LLMs
-  stars: 16025
-  forks: 1782
+  stars: 16028
+  forks: 1783
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:44:03Z'
+  pushed_at: '2026-11-03T11:32:05Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -949,12 +949,12 @@
   repo: huggingface/trl
   category: training
   description: post-training (SFT, DPO, GRPO)
-  stars: 19661
+  stars: 19663
   forks: 3115
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T09:03:47Z'
+  pushed_at: '2026-11-03T14:03:30Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -965,12 +965,12 @@
   repo: deepspeedai/DeepSpeed
   category: training
   description: ZeRO and distributed training optimization
-  stars: 43284
+  stars: 43286
   forks: 5061
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:26:56Z'
+  pushed_at: '2026-11-03T13:56:13Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -981,8 +981,8 @@
   repo: huggingface/peft
   category: training
   description: parameter-efficient fine-tuning
-  stars: 21871
-  forks: 2646
+  stars: 21872
+  forks: 2645
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -997,12 +997,12 @@
   repo: verl-project/verl
   category: training
   description: RL post-training for LLMs
-  stars: 24113
-  forks: 4857
+  stars: 24116
+  forks: 4862
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T06:51:37Z'
+  pushed_at: '2026-11-03T13:16:46Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1013,12 +1013,12 @@
   repo: sgl-project/sglang
   category: inference
   description: high-performance LLM and multimodal serving
-  stars: 38394
-  forks: 10109
+  stars: 38408
+  forks: 10119
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:58:42Z'
+  pushed_at: '2026-11-03T13:57:21Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1029,12 +1029,12 @@
   repo: NVIDIA/TensorRT-LLM
   category: inference
   description: optimized LLM inference on NVIDIA GPUs
-  stars: 14996
+  stars: 14999
   forks: 2901
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: null
-  pushed_at: '2026-11-03T08:47:04Z'
+  pushed_at: '2026-11-03T13:08:05Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1045,12 +1045,12 @@
   repo: flashinfer-ai/flashinfer
   category: inference
   description: kernel library for LLM serving
-  stars: 6842
-  forks: 1688
+  stars: 6846
+  forks: 1691
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:54:09Z'
+  pushed_at: '2026-11-03T14:09:02Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1061,7 +1061,7 @@
   repo: EleutherAI/lm-evaluation-harness
   category: evaluation
   description: the de facto LLM benchmark harness
-  stars: 14384
+  stars: 14386
   forks: 3757
   stars_checked: 2026-11-03
   license: MIT
@@ -1093,12 +1093,12 @@
   repo: NVIDIA-NeMo/Guardrails
   category: safety
   description: programmable guardrails for LLM apps
-  stars: 7419
+  stars: 7421
   forks: 895
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: null
-  pushed_at: '2026-11-03T04:57:09Z'
+  pushed_at: '2026-11-03T10:36:51Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1109,12 +1109,12 @@
   repo: BerriAI/litellm
   category: mlops
   description: AI gateway for 100+ LLM APIs with cost tracking
-  stars: 62614
-  forks: 12963
+  stars: 62627
+  forks: 12973
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: mixed
-  pushed_at: '2026-11-03T09:00:07Z'
+  pushed_at: '2026-11-03T14:14:10Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1125,12 +1125,12 @@
   repo: langfuse/langfuse
   category: mlops
   description: open-source agent evals and observability
-  stars: 36936
-  forks: 4150
+  stars: 36949
+  forks: 4149
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: mixed
-  pushed_at: '2026-11-03T08:56:51Z'
+  pushed_at: '2026-11-03T14:13:24Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1141,12 +1141,12 @@
   repo: mlflow/mlflow
   category: mlops
   description: AI engineering platform for agents, LLMs and ML models
-  stars: 28639
-  forks: 6575
+  stars: 28645
+  forks: 6576
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T07:52:39Z'
+  pushed_at: '2026-11-03T13:36:22Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1157,12 +1157,12 @@
   repo: docling-project/docling
   category: data-rag
   description: document preparation for gen AI
-  stars: 70048
-  forks: 5260
+  stars: 70056
+  forks: 5262
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T06:40:56Z'
+  pushed_at: '2026-11-03T14:02:11Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1173,8 +1173,8 @@
   repo: mem0ai/mem0
   category: agent-memory
   description: memory layer for AI agents
-  stars: 68312
-  forks: 8110
+  stars: 68329
+  forks: 8111
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -1194,7 +1194,7 @@
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
-  pushed_at: '2026-11-03T08:44:00Z'
+  pushed_at: '2026-11-03T13:48:05Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1205,12 +1205,12 @@
   repo: langchain-ai/langgraph
   category: agent-frameworks
   description: resilient stateful agents
-  stars: 44374
-  forks: 7628
+  stars: 44393
+  forks: 7629
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T03:39:19Z'
+  pushed_at: '2026-11-03T14:13:53Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1221,7 +1221,7 @@
   repo: HKUDS/LightRAG
   category: data-rag
   description: simple, fast RAG
-  stars: 40498
+  stars: 40509
   forks: 5754
   stars_checked: 2026-11-03
   license: MIT
@@ -1237,7 +1237,7 @@
   repo: microsoft/graphrag
   category: data-rag
   description: graph-based RAG
-  stars: 36537
+  stars: 36541
   forks: 3869
   stars_checked: 2026-11-03
   license: MIT
@@ -1253,12 +1253,12 @@
   repo: crewAIInc/crewAI
   category: agent-frameworks
   description: role-playing multi-agent orchestration
-  stars: 60438
-  forks: 9014
+  stars: 60451
+  forks: 9018
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-03T06:08:23Z'
+  pushed_at: '2026-11-03T13:45:50Z'
   archived: false
   status: practitioner-pick
   exclusion_reason: null
@@ -1269,8 +1269,8 @@
   repo: openai/openai-agents-python
   category: agent-frameworks
   description: OpenAI's multi-agent workflow SDK
-  stars: 30471
-  forks: 4977
+  stars: 30473
+  forks: 4978
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -1285,12 +1285,12 @@
   repo: mvanhorn/last30days-skill
   category: agent-skills
   description: recent multi-source research
-  stars: 66415
+  stars: 66436
   forks: 5811
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
-  pushed_at: '2026-11-01T18:47:38Z'
+  pushed_at: '2026-11-03T14:11:56Z'
   archived: false
   status: rising
   exclusion_reason: null
@@ -1349,8 +1349,8 @@
   repo: microsoft/generative-ai-for-beginners
   category: foundations
   description: Microsoft's 21-lesson generative AI course
-  stars: 122888
-  forks: 65790
+  stars: 122903
+  forks: 65822
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -1365,8 +1365,8 @@
   repo: Shubhamsaboo/awesome-llm-apps
   category: agent-frameworks
   description: collection of LLM app examples with agents and RAG
-  stars: 143789
-  forks: 21151
+  stars: 143809
+  forks: 21159
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -1381,8 +1381,8 @@
   repo: f/prompts.chat
   category: chat-uis
   description: curated prompt collection (formerly awesome-chatgpt-prompts)
-  stars: 175658
-  forks: 22415
+  stars: 175692
+  forks: 22420
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: mixed
@@ -1397,8 +1397,8 @@
   repo: rasbt/LLMs-from-scratch
   category: foundations
   description: build a GPT-style LLM step by step in PyTorch
-  stars: 107734
-  forks: 16636
+  stars: 107745
+  forks: 16642
   stars_checked: 2026-11-03
   license: NOASSERTION
   license_flag: null
@@ -1413,8 +1413,8 @@
   repo: mlabonne/llm-course
   category: training
   description: roadmap and notebooks for getting into LLMs
-  stars: 84874
-  forks: 9875
+  stars: 84877
+  forks: 9876
   stars_checked: 2026-11-03
   license: Apache-2.0
   license_flag: null
@@ -1429,8 +1429,8 @@
   repo: punkpeye/awesome-mcp-servers
   category: agent-frameworks
   description: curated list of MCP servers
-  stars: 97234
-  forks: 19089
+  stars: 97243
+  forks: 19120
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -1445,8 +1445,8 @@
   repo: odysseus-dev/odysseus
   category: chat-uis
   description: self-hosted AI workspace for chat, agents, research and documents
-  stars: 94973
-  forks: 1871
+  stars: 94997
+  forks: 1874
   stars_checked: 2026-11-03
   license: AGPL-3.0
   license_flag: null
@@ -1461,8 +1461,8 @@
   repo: multica-ai/andrej-karpathy-skills
   category: agent-skills
   description: single CLAUDE.md derived from Karpathy's notes on LLM coding pitfalls
-  stars: 228756
-  forks: 22813
+  stars: 228887
+  forks: 22822
   stars_checked: 2026-11-03
   license: null
   license_flag: null
@@ -1478,7 +1478,7 @@
   category: generative-media
   description: Gradio web UI for Stable Diffusion
   stars: 165235
-  forks: 31922
+  forks: 31925
   stars_checked: 2026-11-03
   license: AGPL-3.0
   license_flag: null
@@ -1493,8 +1493,8 @@
   repo: anthropics/claude-code
   category: coding-agents
   description: Anthropic's terminal coding agent
-  stars: 154351
-  forks: 25544
+  stars: 154386
+  forks: 25549
   stars_checked: 2026-11-03
   license: null
   license_flag: null
@@ -1509,8 +1509,8 @@
   repo: deepseek-ai/DeepSeek-V3
   category: foundations
   description: DeepSeek-V3 model release
-  stars: 104721
-  forks: 16749
+  stars: 104725
+  forks: 16751
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -1525,7 +1525,7 @@
   repo: karpathy/autoresearch
   category: training
   description: autonomous ML research loop
-  stars: 99132
+  stars: 99155
   forks: 13681
   stars_checked: 2026-11-03
   license: null
@@ -1541,8 +1541,8 @@
   repo: hacksider/Deep-Live-Cam
   category: generative-media
   description: real-time face swap and video deepfake
-  stars: 97569
-  forks: 14233
+  stars: 97576
+  forks: 14236
   stars_checked: 2026-11-03
   license: AGPL-3.0
   license_flag: null
@@ -1573,7 +1573,7 @@
   repo: levineam/qmd-skill
   category: agent-skills
   description: qmd search skill for agents
-  stars: 705
+  stars: 706
   forks: 55
   stars_checked: 2026-11-03
   license: null
@@ -1590,7 +1590,7 @@
   category: coding-agents
   description: Rust and Python rewrite tracking parity with the Claude Code source
   stars: 194974
-  forks: 107564
+  forks: 107562
   stars_checked: 2026-11-03
   license: MIT
   license_flag: null
@@ -1598,5 +1598,581 @@
   archived: false
   status: excluded
   exclusion_reason: 'derived from leaked proprietary code: src/AGENTS.md says the tree mirrors the Claude Code TypeScript source; created 2026-03-31'
+  claude_tooling: false
+  added: 2026-11-03
+- id: rea
+  name: REA
+  repo: morluto/rea
+  category: vertical-apps
+  description: reverse engineering of apps and binaries through one MCP server
+  stars: 425561
+  forks: 105988
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T13:48:56Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: true
+  added: 2026-11-03
+- id: orca
+  name: Orca
+  repo: stablyai/orca
+  category: assistants
+  description: desktop orchestrator running coding agents in parallel worktrees
+  stars: 114165
+  forks: 7213
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T14:13:59Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: ruview
+  name: RuView
+  repo: ruvnet/RuView
+  category: vertical-apps
+  description: WiFi signal sensing for pose, breathing and presence detection
+  stars: 102174
+  forks: 13276
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T12:14:16Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: impeccable
+  name: Impeccable
+  repo: pbakaus/impeccable
+  category: agent-skills
+  description: design skills and a slop detector for coding agents
+  stars: 101156
+  forks: 5981
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-02T22:39:39Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: true
+  added: 2026-11-03
+- id: voicestudio
+  name: VoiceStudio
+  repo: debpalash/VoiceStudio
+  category: generative-media
+  description: local voice cloning, dubbing, dictation and narration studio
+  stars: 99711
+  forks: 11058
+  stars_checked: 2026-11-03
+  license: AGPL-3.0
+  license_flag: null
+  pushed_at: '2026-11-03T13:28:51Z'
+  archived: false
+  status: review
+  exclusion_reason: 'responsible use: voice cloning and dubbing tool; human to decide if it counts as a one-click deepfake tool'
+  claude_tooling: false
+  added: 2026-11-03
+- id: opencv
+  name: OpenCV
+  repo: opencv/opencv
+  category: foundations
+  description: computer vision library with a deep learning module
+  stars: 91423
+  forks: 57087
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-03T13:56:25Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: omniroute
+  name: OmniRoute
+  repo: cheaper-inference/OmniRoute
+  category: mlops
+  description: 'AI gateway: one endpoint routing to hundreds of model providers'
+  stars: 84142
+  forks: 12625
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T14:11:26Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: strata
+  name: Strata
+  repo: Niko1221/Strata
+  category: inference
+  description: local inference engine for quantized Qwen models with an OpenAI-style API
+  stars: 38992
+  forks: 4231
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-02T23:27:51Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: laya
+  name: laya
+  repo: NandhaKishorM/laya
+  category: foundations
+  description: non-autoregressive decision models trained with proper scoring rules
+  stars: 34938
+  forks: 3124
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-01T21:25:53Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: magpie
+  name: magpie
+  repo: yetone/magpie
+  category: mlops
+  description: local gateway that switches the model behind each coding agent
+  stars: 28958
+  forks: 2470
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T13:44:04Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: true
+  added: 2026-11-03
+- id: deepinfer
+  name: DeepInfer
+  repo: deepseek-ai/DeepInfer
+  category: inference
+  description: DeepSeek large-scale inference framework
+  stars: 25132
+  forks: 3052
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-03T07:31:59Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: jev-ultrafast
+  name: Jev Ultrafast
+  repo: browser-use/jev-ultrafast
+  category: agent-frameworks
+  description: browser agent with an indexed action space and a small LLM
+  stars: 24121
+  forks: 1851
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T11:46:20Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: moli
+  name: Moli
+  repo: lexmount/moli
+  category: data-rag
+  description: Rust headless browser for AI agents
+  stars: 22395
+  forks: 617
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-03T13:59:05Z'
+  archived: false
+  status: review
+  exclusion_reason: 'integrity: star/fork ratio 36.3 above 3x cohort median (8.3), pending human review'
+  claude_tooling: false
+  added: 2026-11-03
+- id: harness2
+  name: Harness2
+  repo: google-research/harness2
+  category: agent-frameworks
+  description: recursive agent harnessing framework from Google Research
+  stars: 22298
+  forks: 2230
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-02T02:17:27Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: anatomy
+  name: Anatomy
+  repo: wheresryan22/anatomy
+  category: agent-skills
+  description: agent skill for isometric SVG and WebGL explainer figures
+  stars: 24324
+  forks: 2032
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-10-18T20:20:24Z'
+  archived: false
+  status: ranked
+  exclusion_reason: null
+  claude_tooling: true
+  added: 2026-11-03
+- id: ml-for-beginners
+  name: ML-For-Beginners
+  repo: microsoft/ML-For-Beginners
+  category: foundations
+  description: 12-week classic machine learning curriculum
+  stars: 91963
+  forks: 22836
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-10-31T23:23:54Z'
+  archived: false
+  status: learning
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: hello-agents
+  name: hello-agents
+  repo: datawhalechina/hello-agents
+  category: agent-frameworks
+  description: Chinese tutorial on building agents from scratch
+  stars: 85913
+  forks: 10702
+  stars_checked: 2026-11-03
+  license: NOASSERTION
+  license_flag: null
+  pushed_at: '2026-10-13T22:28:54Z'
+  archived: false
+  status: learning
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: funnlp
+  name: funNLP
+  repo: fighting41love/funNLP
+  category: foundations
+  description: Chinese and English NLP resource collection
+  stars: 84359
+  forks: 15310
+  stars_checked: 2026-11-03
+  license: null
+  license_flag: null
+  pushed_at: '2024-05-10T07:38:24Z'
+  archived: false
+  status: excluded
+  exclusion_reason: 'inactive: no push since 2024-05-10 (limit 183 days)'
+  claude_tooling: false
+  added: 2026-11-03
+- id: awesome-dsh-plugin
+  name: awesome-dsh-plugin
+  repo: awesome-dsh-plugin/awesome-dsh-plugin
+  category: coding-agents
+  description: curated list of plugins for DeepSeek Harness
+  stars: 22194
+  forks: 6471
+  stars_checked: 2026-11-03
+  license: CC0-1.0
+  license_flag: null
+  pushed_at: '2026-11-02T23:45:09Z'
+  archived: false
+  status: learning
+  exclusion_reason: null
+  claude_tooling: false
+  added: 2026-11-03
+- id: system-prompts-and-models
+  name: system-prompts-and-models-of-ai-tools
+  repo: x1xhlol/system-prompts-and-models-of-ai-tools
+  category: safety
+  description: dump of AI tool system prompts
+  stars: 144426
+  forks: 34718
+  stars_checked: 2026-11-03
+  license: GPL-3.0
+  license_flag: null
+  pushed_at: '2026-10-12T15:19:01Z'
+  archived: false
+  status: excluded
+  exclusion_reason: responsible use (leaked system-prompt dumps)
+  claude_tooling: false
+  added: 2026-11-03
+- id: javaguide
+  name: JavaGuide
+  repo: Snailclimb/JavaGuide
+  category: foundations
+  description: Java interview and backend study guide
+  stars: 159402
+  forks: 46132
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-10-25T11:47:10Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (general interview guide)
+  claude_tooling: false
+  added: 2026-11-03
+- id: 30-seconds-of-code
+  name: 30 Seconds of Code
+  repo: Chalarangelo/30-seconds-of-code
+  category: foundations
+  description: short coding snippets and articles
+  stars: 129396
+  forks: 12513
+  stars_checked: 2026-11-03
+  license: CC-BY-4.0
+  license_flag: null
+  pushed_at: '2026-10-26T16:14:24Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
+  claude_tooling: false
+  added: 2026-11-03
+- id: shadcn-ui
+  name: shadcn/ui
+  repo: shadcn-ui/ui
+  category: foundations
+  description: React component collection
+  stars: 127261
+  forks: 12009
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T08:33:18Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (general dev tool)
+  claude_tooling: false
+  added: 2026-11-03
+- id: awesome-design-md
+  name: awesome-design-md
+  repo: VoltAgent/awesome-design-md
+  category: agent-skills
+  description: collection of DESIGN.md files for UI generation
+  stars: 125398
+  forks: 13904
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-10-28T15:45:40Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (curated list of design documents)
+  claude_tooling: false
+  added: 2026-11-03
+- id: supabase
+  name: Supabase
+  repo: supabase/supabase
+  category: data-rag
+  description: Postgres development platform
+  stars: 114473
+  forks: 15780
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-03T14:13:03Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (general dev tool)
+  claude_tooling: false
+  added: 2026-11-03
+- id: app-ideas
+  name: app-ideas
+  repo: florinpop17/app-ideas
+  category: foundations
+  description: collection of application ideas
+  stars: 98462
+  forks: 10695
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2025-10-11T14:51:21Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
+  claude_tooling: false
+  added: 2026-11-03
+- id: scrapling
+  name: Scrapling
+  repo: D4Vinci/Scrapling
+  category: data-rag
+  description: web scraping framework
+  stars: 93854
+  forks: 9854
+  stars_checked: 2026-11-03
+  license: BSD-3-Clause
+  license_flag: null
+  pushed_at: '2026-11-02T20:16:23Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (general scraper with AI extras)
+  claude_tooling: false
+  added: 2026-11-03
+- id: deepseek-r1
+  name: DeepSeek-R1
+  repo: deepseek-ai/DeepSeek-R1
+  category: foundations
+  description: DeepSeek reasoning model release
+  stars: 91994
+  forks: 11670
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2025-06-27T08:35:54Z'
+  archived: false
+  status: excluded
+  exclusion_reason: model release, inactive (no push since 2025-06-27)
+  claude_tooling: false
+  added: 2026-11-03
+- id: cs-video-courses
+  name: cs-video-courses
+  repo: Developer-Y/cs-video-courses
+  category: foundations
+  description: list of computer science video courses
+  stars: 84537
+  forks: 11618
+  stars_checked: 2026-11-03
+  license: null
+  license_flag: null
+  pushed_at: '2026-10-31T22:05:30Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first (general CS list)
+  claude_tooling: false
+  added: 2026-11-03
+- id: photocraft
+  name: PhotoCraft
+  repo: storytold/photocraft
+  category: generative-media
+  description: photo editor written in Rust
+  stars: 76461
+  forks: 13544
+  stars_checked: 2026-11-03
+  license: Apache-2.0
+  license_flag: null
+  pushed_at: '2026-11-03T14:11:09Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
+  claude_tooling: false
+  added: 2026-11-03
+- id: howtolivebetter
+  name: HowToLiveBetter
+  repo: eternity4719/HowToLiveBetter
+  category: foundations
+  description: life guide in Chinese
+  stars: 72995
+  forks: 6407
+  stars_checked: 2026-11-03
+  license: CC-BY-4.0
+  license_flag: null
+  pushed_at: '2026-10-21T07:20:02Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
+  claude_tooling: false
+  added: 2026-11-03
+- id: dsh-our-free-model
+  name: dsh-our-free-model
+  repo: Ebony-Vinyl/dsh-our-free-model
+  category: mlops
+  description: plugin giving keyless access to free model lanes
+  stars: 58599
+  forks: 1592
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-02T08:10:54Z'
+  archived: false
+  status: excluded
+  exclusion_reason: responsible use (API-abuse wrapper around third-party free tiers)
+  claude_tooling: false
+  added: 2026-11-03
+- id: cleanyourtv
+  name: cleanyourtv
+  repo: Gathin23/cleanyourtv
+  category: foundations
+  description: Android TV debloat tool
+  stars: 50971
+  forks: 6439
+  stars_checked: 2026-11-03
+  license: NOASSERTION
+  license_flag: null
+  pushed_at: '2026-11-03T04:38:30Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
+  claude_tooling: false
+  added: 2026-11-03
+- id: dsh-desktop
+  name: DSH Desktop
+  repo: anywhere-labs/dsh-desktop
+  category: coding-agents
+  description: desktop client for DeepSeek Harness
+  stars: 34690
+  forks: 1569
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T12:01:17Z'
+  archived: false
+  status: excluded
+  exclusion_reason: 'not canonical: unaffiliated client carrying fork history of DeepSeek Harness'
+  claude_tooling: false
+  added: 2026-11-03
+- id: watermarks-remover
+  name: watermarks-remover
+  repo: guillaumemeyer/watermarks-remover
+  category: safety
+  description: tool to strip AI provenance marks
+  stars: 26089
+  forks: 2972
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-02T20:26:10Z'
+  archived: false
+  status: excluded
+  exclusion_reason: responsible use (removes AI provenance and watermarks)
+  claude_tooling: false
+  added: 2026-11-03
+- id: filee
+  name: Filee
+  repo: KnifeLemon/Filee
+  category: foundations
+  description: offline file converter
+  stars: 21131
+  forks: 1279
+  stars_checked: 2026-11-03
+  license: MIT
+  license_flag: null
+  pushed_at: '2026-11-03T13:56:08Z'
+  archived: false
+  status: excluded
+  exclusion_reason: not AI/ML-first
   claude_tooling: false
   added: 2026-11-03

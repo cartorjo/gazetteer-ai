@@ -7,66 +7,81 @@ Last refreshed: 2026-11-03. Stars measure popularity, not quality or production 
 
 | Rank | Project | Category | Stars | Forks | License | Last push |
 |-----:|---------|----------|------:|------:|---------|-----------|
-| 1 | [OpenClaw](https://github.com/openclaw/openclaw) | Personal and Multi-Agent Assistants | 393,794 | 82,769 | MIT | 2026-11-03 |
-| 2 | [superpowers](https://github.com/obra/superpowers) | Agent Skills and Methodologies | 311,441 | 27,714 | MIT | 2026-11-03 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Agent Skills and Methodologies | 310,646 | 26,132 | MIT | 2026-11-01 |
-| 4 | [ECC](https://github.com/affaan-m/ECC) | Agent Skills and Methodologies | 295,967 | 43,789 | MIT | 2026-11-02 |
-| 5 | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | Coding Agents and Harnesses | 270,322 | 32,864 | MIT | 2026-11-03 |
-| 6 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Personal and Multi-Agent Assistants | 260,020 | 57,272 | MIT | 2026-11-03 |
-| 7 | [OpenCode](https://github.com/anomalyco/opencode) | Coding Agents and Harnesses | 224,205 | 30,160 | MIT | 2026-11-03 |
-| 8 | [n8n](https://github.com/n8n-io/n8n) | Agent Frameworks and Workflow Builders | 209,427 | 61,358 | NOASSERTION (fair-code) | 2026-11-03 |
-| 9 | [TensorFlow](https://github.com/tensorflow/tensorflow) | Foundations | 201,282 | 78,195 | Apache-2.0 | 2026-11-03 |
-| 10 | [Firecrawl](https://github.com/firecrawl/firecrawl) | Data, Retrieval and RAG | 198,133 | 10,466 | AGPL-3.0 | 2026-11-03 |
-| 11 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Agent Frameworks and Workflow Builders | 187,888 | 45,901 | NOASSERTION (mixed) | 2026-11-03 |
-| 12 | [anthropics/skills](https://github.com/anthropics/skills) | Agent Skills and Methodologies | 186,916 | 22,072 | n/a (mixed) | 2026-10-28 |
-| 13 | [Ollama](https://github.com/ollama/ollama) | Inference and Local Runtimes | 185,754 | 18,887 | MIT | 2026-11-03 |
-| 14 | [ponytail](https://github.com/DietrichGebert/ponytail) | Agent Skills and Methodologies | 183,191 | 10,121 | MIT | 2026-10-29 |
-| 15 | [Transformers](https://github.com/huggingface/transformers) | Foundations | 168,483 | 35,094 | Apache-2.0 | 2026-11-03 |
-| 16 | [agency-agents](https://github.com/msitarzewski/agency-agents) | Agent Skills and Methodologies | 166,194 | 26,918 | MIT | 2026-10-25 |
-| 17 | [Dify](https://github.com/langgenius/dify) | Agent Frameworks and Workflow Builders | 160,308 | 25,350 | NOASSERTION (modified-apache) | 2026-11-03 |
-| 18 | [Open WebUI](https://github.com/open-webui/open-webui) | Chat UIs and Workspaces | 157,621 | 22,933 | NOASSERTION (modified-bsd) | 2026-11-03 |
-| 19 | [Langflow](https://github.com/langflow-ai/langflow) | Agent Frameworks and Workflow Builders | 156,283 | 10,315 | MIT | 2026-11-03 |
-| 20 | [cc-switch](https://github.com/farion1231/cc-switch) | Coding Agents and Harnesses | 151,408 | 9,957 | MIT | 2026-11-03 |
-| 21 | [LangChain](https://github.com/langchain-ai/langchain) | Agent Frameworks and Workflow Builders | 148,931 | 25,040 | MIT | 2026-11-03 |
-| 22 | [spec-kit](https://github.com/github/spec-kit) | Agent Skills and Methodologies | 145,989 | 13,093 | MIT | 2026-11-02 |
-| 23 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Generative Media | 144,755 | 17,255 | GPL-3.0 | 2026-11-03 |
-| 24 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Agent Skills and Methodologies | 144,484 | 15,291 | MIT | 2026-11-02 |
-| 25 | [graphify](https://github.com/Graphify-Labs/graphify) | Agent Memory and Code Understanding | 141,442 | 13,530 | Apache-2.0 | 2026-11-02 |
-| 26 | [gstack](https://github.com/garrytan/gstack) | Agent Skills and Methodologies | 138,742 | 20,564 | MIT | 2026-11-03 |
-| 27 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generative Media | 137,802 | 22,008 | MIT | 2026-11-02 |
-| 28 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Inference and Local Runtimes | 133,236 | 25,088 | MIT | 2026-11-03 |
-| 29 | [Codex](https://github.com/openai/codex) | Coding Agents and Harnesses | 132,954 | 21,033 | Apache-2.0 | 2026-11-03 |
-| 30 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Vertical AI Apps | 120,108 | 22,973 | Apache-2.0 | 2026-10-27 |
-| 31 | [browser-use](https://github.com/browser-use/browser-use) | Agent Frameworks and Workflow Builders | 119,905 | 13,371 | MIT | 2026-11-02 |
-| 32 | [pi](https://github.com/earendil-works/pi) | Coding Agents and Harnesses | 119,696 | 15,367 | MIT | 2026-11-03 |
-| 33 | [caveman](https://github.com/JuliusBrussee/caveman) | Agent Skills and Methodologies | 117,035 | 6,800 | Apache-2.0 | 2026-11-03 |
-| 34 | [agent-skills](https://github.com/addyosmani/agent-skills) | Agent Skills and Methodologies | 112,905 | 11,819 | MIT | 2026-11-01 |
-| 35 | [claude-mem](https://github.com/thedotmack/claude-mem) | Agent Memory and Code Understanding | 111,158 | 9,688 | Apache-2.0 | 2026-11-03 |
-| 36 | [Paperclip](https://github.com/paperclipai/paperclip) | Personal and Multi-Agent Assistants | 110,632 | 18,310 | MIT | 2026-11-03 |
-| 37 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | Agent Skills and Methodologies | 109,078 | 7,344 | MIT | 2026-11-03 |
-| 38 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Coding Agents and Harnesses | 108,697 | 14,916 | Apache-2.0 | 2026-11-03 |
-| 39 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Data, Retrieval and RAG | 108,224 | 9,656 | MIT | 2026-11-01 |
-| 40 | [open-design](https://github.com/nexu-io/open-design) | Vertical AI Apps | 105,622 | 12,044 | Apache-2.0 | 2026-11-03 |
-| 41 | [PyTorch](https://github.com/pytorch/pytorch) | Foundations | 105,103 | 31,324 | NOASSERTION | 2026-11-03 |
-| 42 | [vLLM](https://github.com/vllm-project/vllm) | Inference and Local Runtimes | 96,191 | 24,339 | Apache-2.0 | 2026-11-03 |
-| 43 | [RAGFlow](https://github.com/infiniflow/ragflow) | Data, Retrieval and RAG | 93,409 | 11,214 | Apache-2.0 | 2026-11-03 |
-| 44 | [archify](https://github.com/tt-a1i/archify) | Agent Memory and Code Understanding | 92,919 | 6,344 | Apache-2.0 | 2026-11-03 |
-| 45 | [OpenHands](https://github.com/OpenHands/OpenHands) | Coding Agents and Harnesses | 92,546 | 12,342 | MIT | 2026-11-03 |
-| 46 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Data, Retrieval and RAG | 92,181 | 11,615 | Apache-2.0 | 2026-09-16 |
-| 47 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Agent Memory and Code Understanding | 90,098 | 7,687 | MIT | 2026-10-26 |
-| 48 | [worldmonitor](https://github.com/koala73/worldmonitor) | Vertical AI Apps | 90,046 | 13,916 | AGPL-3.0 | 2026-11-03 |
-| 49 (near miss) | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | Chat UIs and Workspaces | 88,939 | 58,643 | MIT | 2026-10-20 |
-| 50 (near miss) | [Crawl4AI](https://github.com/unclecode/crawl4ai) | Data, Retrieval and RAG | 86,812 | 9,048 | Apache-2.0 | 2026-11-02 |
-| 51 (near miss) | [RTK](https://github.com/rtk-ai/rtk) | Coding Agents and Harnesses | 85,390 | 5,469 | Apache-2.0 | 2026-11-03 |
-| 52 (near miss) | [DeerFlow](https://github.com/bytedance/deer-flow) | Agent Frameworks and Workflow Builders | 84,925 | 11,939 | MIT | 2026-11-03 |
-| 53 (near miss) | [LobeHub](https://github.com/lobehub/lobehub) | Chat UIs and Workspaces | 83,751 | 16,039 | NOASSERTION (modified-apache) | 2026-11-03 |
-| 54 (unlisted) | [MinerU](https://github.com/opendatalab/MinerU) | Data, Retrieval and RAG | 83,036 | 6,877 | NOASSERTION (mixed) | 2026-11-03 |
+| 1 | [REA](https://github.com/morluto/rea) | Vertical AI Apps | 425,561 | 105,988 | MIT | 2026-11-03 |
+| 2 | [OpenClaw](https://github.com/openclaw/openclaw) | Personal and Multi-Agent Assistants | 393,816 | 82,784 | MIT | 2026-11-03 |
+| 3 | [superpowers](https://github.com/obra/superpowers) | Agent Skills and Methodologies | 311,616 | 27,724 | MIT | 2026-11-03 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | Agent Skills and Methodologies | 310,949 | 26,155 | MIT | 2026-11-01 |
+| 5 | [ECC](https://github.com/affaan-m/ECC) | Agent Skills and Methodologies | 296,191 | 43,818 | MIT | 2026-11-02 |
+| 6 | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | Coding Agents and Harnesses | 270,698 | 32,900 | MIT | 2026-11-03 |
+| 7 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Personal and Multi-Agent Assistants | 260,108 | 57,307 | MIT | 2026-11-03 |
+| 8 | [OpenCode](https://github.com/anomalyco/opencode) | Coding Agents and Harnesses | 224,258 | 30,177 | MIT | 2026-11-03 |
+| 9 | [n8n](https://github.com/n8n-io/n8n) | Agent Frameworks and Workflow Builders | 209,438 | 61,364 | NOASSERTION (fair-code) | 2026-11-03 |
+| 10 | [TensorFlow](https://github.com/tensorflow/tensorflow) | Foundations | 201,282 | 78,200 | Apache-2.0 | 2026-11-03 |
+| 11 | [Firecrawl](https://github.com/firecrawl/firecrawl) | Data, Retrieval and RAG | 198,195 | 10,469 | AGPL-3.0 | 2026-11-03 |
+| 12 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Agent Frameworks and Workflow Builders | 187,884 | 45,903 | NOASSERTION (mixed) | 2026-11-03 |
+| 13 | [anthropics/skills](https://github.com/anthropics/skills) | Agent Skills and Methodologies | 186,997 | 22,082 | n/a (mixed) | 2026-10-28 |
+| 14 | [Ollama](https://github.com/ollama/ollama) | Inference and Local Runtimes | 185,783 | 18,889 | MIT | 2026-11-03 |
+| 15 | [ponytail](https://github.com/DietrichGebert/ponytail) | Agent Skills and Methodologies | 183,402 | 10,131 | MIT | 2026-10-29 |
+| 16 | [Transformers](https://github.com/huggingface/transformers) | Foundations | 168,488 | 35,098 | Apache-2.0 | 2026-11-03 |
+| 17 | [agency-agents](https://github.com/msitarzewski/agency-agents) | Agent Skills and Methodologies | 166,237 | 26,929 | MIT | 2026-10-25 |
+| 18 | [Dify](https://github.com/langgenius/dify) | Agent Frameworks and Workflow Builders | 160,319 | 25,355 | NOASSERTION (modified-apache) | 2026-11-03 |
+| 19 | [Open WebUI](https://github.com/open-webui/open-webui) | Chat UIs and Workspaces | 157,643 | 22,935 | NOASSERTION (modified-bsd) | 2026-11-03 |
+| 20 | [Langflow](https://github.com/langflow-ai/langflow) | Agent Frameworks and Workflow Builders | 156,285 | 10,320 | MIT | 2026-11-03 |
+| 21 | [cc-switch](https://github.com/farion1231/cc-switch) | Coding Agents and Harnesses | 151,473 | 9,964 | MIT | 2026-11-03 |
+| 22 | [LangChain](https://github.com/langchain-ai/langchain) | Agent Frameworks and Workflow Builders | 148,941 | 25,046 | MIT | 2026-11-03 |
+| 23 | [spec-kit](https://github.com/github/spec-kit) | Agent Skills and Methodologies | 146,281 | 13,121 | MIT | 2026-11-02 |
+| 24 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Generative Media | 144,801 | 17,260 | GPL-3.0 | 2026-11-03 |
+| 25 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Agent Skills and Methodologies | 144,617 | 15,301 | MIT | 2026-11-02 |
+| 26 | [graphify](https://github.com/Graphify-Labs/graphify) | Agent Memory and Code Understanding | 141,590 | 13,542 | Apache-2.0 | 2026-11-02 |
+| 27 | [gstack](https://github.com/garrytan/gstack) | Agent Skills and Methodologies | 138,784 | 20,572 | MIT | 2026-11-03 |
+| 28 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generative Media | 138,053 | 22,041 | MIT | 2026-11-02 |
+| 29 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Inference and Local Runtimes | 133,257 | 25,096 | MIT | 2026-11-03 |
+| 30 | [Codex](https://github.com/openai/codex) | Coding Agents and Harnesses | 132,980 | 21,045 | Apache-2.0 | 2026-11-03 |
+| 31 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Vertical AI Apps | 120,182 | 22,991 | Apache-2.0 | 2026-10-27 |
+| 32 | [browser-use](https://github.com/browser-use/browser-use) | Agent Frameworks and Workflow Builders | 119,931 | 13,373 | MIT | 2026-11-02 |
+| 33 | [pi](https://github.com/earendil-works/pi) | Coding Agents and Harnesses | 119,778 | 15,373 | MIT | 2026-11-03 |
+| 34 | [caveman](https://github.com/JuliusBrussee/caveman) | Agent Skills and Methodologies | 117,101 | 6,807 | Apache-2.0 | 2026-11-03 |
+| 35 | [Orca](https://github.com/stablyai/orca) | Personal and Multi-Agent Assistants | 114,165 | 7,213 | MIT | 2026-11-03 |
+| 36 | [agent-skills](https://github.com/addyosmani/agent-skills) | Agent Skills and Methodologies | 112,954 | 11,823 | MIT | 2026-11-01 |
+| 37 | [claude-mem](https://github.com/thedotmack/claude-mem) | Agent Memory and Code Understanding | 111,408 | 9,707 | Apache-2.0 | 2026-11-03 |
+| 38 | [Paperclip](https://github.com/paperclipai/paperclip) | Personal and Multi-Agent Assistants | 110,729 | 18,324 | MIT | 2026-11-03 |
+| 39 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | Agent Skills and Methodologies | 109,268 | 7,359 | MIT | 2026-11-03 |
+| 40 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Coding Agents and Harnesses | 108,698 | 14,921 | Apache-2.0 | 2026-11-03 |
+| 41 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Data, Retrieval and RAG | 108,307 | 9,663 | MIT | 2026-11-01 |
+| 42 | [open-design](https://github.com/nexu-io/open-design) | Vertical AI Apps | 105,663 | 12,047 | Apache-2.0 | 2026-11-03 |
+| 43 | [PyTorch](https://github.com/pytorch/pytorch) | Foundations | 105,100 | 31,326 | NOASSERTION | 2026-11-03 |
+| 44 | [RuView](https://github.com/ruvnet/RuView) | Vertical AI Apps | 102,174 | 13,276 | MIT | 2026-11-03 |
+| 45 | [Impeccable](https://github.com/pbakaus/impeccable) | Agent Skills and Methodologies | 101,156 | 5,981 | Apache-2.0 | 2026-11-02 |
+| 46 | [vLLM](https://github.com/vllm-project/vllm) | Inference and Local Runtimes | 96,220 | 24,354 | Apache-2.0 | 2026-11-03 |
+| 47 | [RAGFlow](https://github.com/infiniflow/ragflow) | Data, Retrieval and RAG | 93,427 | 11,218 | Apache-2.0 | 2026-11-03 |
+| 48 | [archify](https://github.com/tt-a1i/archify) | Agent Memory and Code Understanding | 93,025 | 6,348 | Apache-2.0 | 2026-11-03 |
+| 49 (near miss) | [OpenHands](https://github.com/OpenHands/OpenHands) | Coding Agents and Harnesses | 92,569 | 12,345 | MIT | 2026-11-03 |
+| 50 (near miss) | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Data, Retrieval and RAG | 92,195 | 11,619 | Apache-2.0 | 2026-09-16 |
+| 51 (near miss) | [OpenCV](https://github.com/opencv/opencv) | Foundations | 91,423 | 57,087 | Apache-2.0 | 2026-11-03 |
+| 52 (near miss) | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Agent Memory and Code Understanding | 90,163 | 7,699 | MIT | 2026-10-26 |
+| 53 (near miss) | [worldmonitor](https://github.com/koala73/worldmonitor) | Vertical AI Apps | 90,059 | 13,922 | AGPL-3.0 | 2026-11-03 |
+| 54 (unlisted) | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | Chat UIs and Workspaces | 88,938 | 58,639 | MIT | 2026-10-20 |
+| 55 (unlisted) | [Crawl4AI](https://github.com/unclecode/crawl4ai) | Data, Retrieval and RAG | 86,823 | 9,050 | Apache-2.0 | 2026-11-03 |
+| 56 (unlisted) | [RTK](https://github.com/rtk-ai/rtk) | Coding Agents and Harnesses | 85,420 | 5,471 | Apache-2.0 | 2026-11-03 |
+| 57 (unlisted) | [DeerFlow](https://github.com/bytedance/deer-flow) | Agent Frameworks and Workflow Builders | 84,938 | 11,941 | MIT | 2026-11-03 |
+| 58 (unlisted) | [OmniRoute](https://github.com/cheaper-inference/OmniRoute) | MLOps and Observability | 84,142 | 12,625 | MIT | 2026-11-03 |
+| 59 (unlisted) | [LobeHub](https://github.com/lobehub/lobehub) | Chat UIs and Workspaces | 83,772 | 16,038 | NOASSERTION (modified-apache) | 2026-11-03 |
+| 60 (unlisted) | [MinerU](https://github.com/opendatalab/MinerU) | Data, Retrieval and RAG | 83,053 | 6,881 | NOASSERTION (mixed) | 2026-11-03 |
+| 61 (unlisted) | [Strata](https://github.com/Niko1221/Strata) | Inference and Local Runtimes | 38,992 | 4,231 | MIT | 2026-11-02 |
+| 62 (unlisted) | [laya](https://github.com/NandhaKishorM/laya) | Foundations | 34,938 | 3,124 | Apache-2.0 | 2026-11-01 |
+| 63 (unlisted) | [magpie](https://github.com/yetone/magpie) | MLOps and Observability | 28,958 | 2,470 | MIT | 2026-11-03 |
+| 64 (unlisted) | [DeepInfer](https://github.com/deepseek-ai/DeepInfer) | Inference and Local Runtimes | 25,132 | 3,052 | Apache-2.0 | 2026-11-03 |
+| 65 (unlisted) | [Anatomy](https://github.com/wheresryan22/anatomy) | Agent Skills and Methodologies | 24,324 | 2,032 | MIT | 2026-10-18 |
+| 66 (unlisted) | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | Agent Frameworks and Workflow Builders | 24,121 | 1,851 | MIT | 2026-11-03 |
+| 67 (unlisted) | [Harness2](https://github.com/google-research/harness2) | Agent Frameworks and Workflow Builders | 22,298 | 2,230 | Apache-2.0 | 2026-11-02 |
 
 ## Under review
 
 Entries flagged by the integrity rule. They are never ranked until a human approves the status change in a PR.
 
-- [Odysseus](https://github.com/odysseus-dev/odysseus) - 94,973 stars, 1,871 forks. integrity: star/fork ratio far above cohort median, pending human review
+- [Odysseus](https://github.com/odysseus-dev/odysseus) - 94,997 stars, 1,874 forks. integrity: star/fork ratio far above cohort median, pending human review
+- [VoiceStudio](https://github.com/debpalash/VoiceStudio) - 99,711 stars, 11,058 forks. responsible use: voice cloning and dubbing tool; human to decide if it counts as a one-click deepfake tool
+- [Moli](https://github.com/lexmount/moli) - 22,395 stars, 617 forks. integrity: star/fork ratio 36.3 above 3x cohort median (8.3), pending human review
 
 ## Excluded
 
@@ -82,3 +97,21 @@ Entries flagged by the integrity rule. They are never ranked until a human appro
 - [napkin](https://github.com/blader/napkin) - inactive: no push since 2026-02-21
 - [qmd-skill](https://github.com/levineam/qmd-skill) - inactive: no push since 2026-02-25
 - [claw-code](https://github.com/ultraworkers/claw-code) - derived from leaked proprietary code: src/AGENTS.md says the tree mirrors the Claude Code TypeScript source; created 2026-03-31
+- [funNLP](https://github.com/fighting41love/funNLP) - inactive: no push since 2024-05-10 (limit 183 days)
+- [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - responsible use (leaked system-prompt dumps)
+- [JavaGuide](https://github.com/Snailclimb/JavaGuide) - not AI/ML-first (general interview guide)
+- [30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code) - not AI/ML-first
+- [shadcn/ui](https://github.com/shadcn-ui/ui) - not AI/ML-first (general dev tool)
+- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - not AI/ML-first (curated list of design documents)
+- [Supabase](https://github.com/supabase/supabase) - not AI/ML-first (general dev tool)
+- [app-ideas](https://github.com/florinpop17/app-ideas) - not AI/ML-first
+- [Scrapling](https://github.com/D4Vinci/Scrapling) - not AI/ML-first (general scraper with AI extras)
+- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) - model release, inactive (no push since 2025-06-27)
+- [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - not AI/ML-first (general CS list)
+- [PhotoCraft](https://github.com/storytold/photocraft) - not AI/ML-first
+- [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) - not AI/ML-first
+- [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) - responsible use (API-abuse wrapper around third-party free tiers)
+- [cleanyourtv](https://github.com/Gathin23/cleanyourtv) - not AI/ML-first
+- [DSH Desktop](https://github.com/anywhere-labs/dsh-desktop) - not canonical: unaffiliated client carrying fork history of DeepSeek Harness
+- [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) - responsible use (removes AI provenance and watermarks)
+- [Filee](https://github.com/KnifeLemon/Filee) - not AI/ML-first

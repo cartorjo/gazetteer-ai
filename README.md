@@ -41,7 +41,6 @@ Ingestion, crawling, OCR, retrieval and vector stores. Lifecycle stage: Data.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Web search, scrape and interact API for agents. ![stars](https://img.shields.io/github/stars/firecrawl/firecrawl?style=flat-square&label=stars)
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - Web, social and repo access with routing. ![stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat-square&label=stars)
 - [RAGFlow](https://github.com/infiniflow/ragflow) - RAG engine fused with agent capabilities. ![stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square&label=stars)
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - PDFs and images to LLM-ready structured data. ![stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square&label=stars)
 
 Practitioner picks - chosen on adoption, not stars:
 
@@ -116,7 +115,6 @@ Terminal and IDE coding agents and harness runtimes. Lifecycle stage: Apply.
 - [Codex](https://github.com/openai/codex) - OpenAI's Rust terminal coding agent. ![stars](https://img.shields.io/github/stars/openai/codex?style=flat-square&label=stars)
 - [pi](https://github.com/earendil-works/pi) - Unified LLM API, agent loop, TUI and coding CLI. ![stars](https://img.shields.io/github/stars/earendil-works/pi?style=flat-square&label=stars)
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source Gemini terminal agent. ![stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square&label=stars)
-- [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven software development platform. ![stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=flat-square&label=stars)
 
 ## Personal and Multi-Agent Assistants
 
@@ -124,6 +122,7 @@ Always-on assistants and agent fleet managers. Lifecycle stage: Apply.
 
 - [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant on any OS and channel. ![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat-square&label=stars)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Self-improving agent with a learning loop. ![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=flat-square&label=stars)
+- [Orca](https://github.com/stablyai/orca) - Desktop orchestrator running coding agents in parallel worktrees. ![stars](https://img.shields.io/github/stars/stablyai/orca?style=flat-square&label=stars)
 - [Paperclip](https://github.com/paperclipai/paperclip) - Manage fleets of agents at work. ![stars](https://img.shields.io/github/stars/paperclipai/paperclip?style=flat-square&label=stars)
 
 ## Agent Skills and Methodologies
@@ -142,6 +141,7 @@ SKILL.md packs, personas and spec-driven methods. Lifecycle stage: Apply.
 - [caveman](https://github.com/JuliusBrussee/caveman) - Token-cutting terse-output skill and proxy. ![stars](https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat-square&label=stars)
 - [agent-skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills. ![stars](https://img.shields.io/github/stars/addyosmani/agent-skills?style=flat-square&label=stars)
 - [taste-skill](https://github.com/Leonxlnx/taste-skill) - Anti-generic "good taste" design skill. ![stars](https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&label=stars)
+- [Impeccable](https://github.com/pbakaus/impeccable) - Design skills and a slop detector for coding agents. ![stars](https://img.shields.io/github/stars/pbakaus/impeccable?style=flat-square&label=stars)
 
 ## Agent Memory and Code Understanding
 
@@ -150,7 +150,6 @@ Persistent memory and code knowledge graphs. Lifecycle stage: Apply.
 - [graphify](https://github.com/Graphify-Labs/graphify) - Queryable code and document knowledge graph. ![stars](https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat-square&label=stars)
 - [claude-mem](https://github.com/thedotmack/claude-mem) - Persistent cross-session agent memory. ![stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square&label=stars)
 - [archify](https://github.com/tt-a1i/archify) - Codebases and plans as interactive diagrams. ![stars](https://img.shields.io/github/stars/tt-a1i/archify?style=flat-square&label=stars)
-- [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) - Interactive codebase knowledge graph. ![stars](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat-square&label=stars)
 
 Practitioner picks - chosen on adoption, not stars:
 
@@ -173,9 +172,10 @@ Image, video and audio generation tooling. Lifecycle stage: Apply.
 
 Domain applications. Lifecycle stage: Apply.
 
+- [REA](https://github.com/morluto/rea) - Reverse engineering of apps and binaries through one MCP server. ![stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=stars)
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent LLM trading framework. ![stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=flat-square&label=stars)
 - [open-design](https://github.com/nexu-io/open-design) - Coding agent as design engine (prototypes, slides, video). ![stars](https://img.shields.io/github/stars/nexu-io/open-design?style=flat-square&label=stars)
-- [worldmonitor](https://github.com/koala73/worldmonitor) - AI-powered global news and situational dashboard. ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat-square&label=stars)
+- [RuView](https://github.com/ruvnet/RuView) - WiFi signal sensing for pose, breathing and presence detection. ![stars](https://img.shields.io/github/stars/ruvnet/RuView?style=flat-square&label=stars)
 
 ## Safety and Guardrails
 
@@ -199,11 +199,11 @@ Practitioner picks - chosen on adoption, not stars:
 
 Ranks 49 to 53. They enter the list automatically when they overtake an entry above.
 
-- [NextChat](https://github.com/ChatGPTNextWeb/NextChat) - Lightweight cross-platform AI chat client. ![stars](https://img.shields.io/github/stars/ChatGPTNextWeb/NextChat?style=flat-square&label=stars)
-- [Crawl4AI](https://github.com/unclecode/crawl4ai) - Any website to clean, LLM-ready Markdown. ![stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square&label=stars)
-- [RTK](https://github.com/rtk-ai/rtk) - CLI proxy that compresses tool output to cut agent token use. ![stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=flat-square&label=stars)
-- [DeerFlow](https://github.com/bytedance/deer-flow) - Deep research framework combining LLMs with search and tools. ![stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square&label=stars)
-- [LobeHub](https://github.com/lobehub/lobehub) - Self-hosted AI agent workspace with knowledge base and plugins. ![stars](https://img.shields.io/github/stars/lobehub/lobehub?style=flat-square&label=stars)
+- [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven software development platform. ![stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=flat-square&label=stars)
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - PDFs and images to LLM-ready structured data. ![stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square&label=stars)
+- [OpenCV](https://github.com/opencv/opencv) - Computer vision library with a deep learning module. ![stars](https://img.shields.io/github/stars/opencv/opencv?style=flat-square&label=stars)
+- [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) - Interactive codebase knowledge graph. ![stars](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat-square&label=stars)
+- [worldmonitor](https://github.com/koala73/worldmonitor) - AI-powered global news and situational dashboard. ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat-square&label=stars)
 
 ## Rising skills
 
@@ -221,6 +221,9 @@ Courses, books, curated lists and prompt collections. Reading material is never 
 - [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) - Microsoft's 21-lesson generative AI course. ![stars](https://img.shields.io/github/stars/microsoft/generative-ai-for-beginners?style=flat-square&label=stars)
 - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) - Build a GPT-style LLM step by step in PyTorch. ![stars](https://img.shields.io/github/stars/rasbt/LLMs-from-scratch?style=flat-square&label=stars)
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP servers. ![stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat-square&label=stars)
+- [ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) - 12-week classic machine learning curriculum. ![stars](https://img.shields.io/github/stars/microsoft/ML-For-Beginners?style=flat-square&label=stars)
+- [hello-agents](https://github.com/datawhalechina/hello-agents) - Chinese tutorial on building agents from scratch. ![stars](https://img.shields.io/github/stars/datawhalechina/hello-agents?style=flat-square&label=stars)
+- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) - Curated list of plugins for DeepSeek Harness. ![stars](https://img.shields.io/github/stars/awesome-dsh-plugin/awesome-dsh-plugin?style=flat-square&label=stars)
 
 ## Methodology and data
 
