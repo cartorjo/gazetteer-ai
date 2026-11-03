@@ -22,7 +22,9 @@ Last refreshed: {{ last_refreshed }}. Stars measure popularity, not quality or p
 {% for p in block.ranked %}
 - [{{ p.name }}](https://github.com/{{ p.repo }}) - {{ p.description | cap }}{% if p.license_flag %} (license: {{ p.license_flag }}){% endif %}. ![stars](https://img.shields.io/github/stars/{{ p.repo }}?style=flat-square&label=stars)
 {% endfor %}
+{% if block.ranked %}
 
+{% endif %}
 {% if block.picks %}
 Practitioner picks - chosen on adoption, not stars:
 
