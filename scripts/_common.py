@@ -111,6 +111,10 @@ def github_get(session: requests.Session, url: str, params: dict | None = None, 
                 wait = int(retry_after)
             elif remaining == "0" and reset:
                 wait = max(0, int(reset) - int(time.time())) + 2
+            elif resp.status_code == 403:
+                # A 403 that is not a rate limit (e.g. a sandbox proxy that only allows some
+                # repositories) is a real answer; let the caller decide.
+                return resp
             else:
                 wait = 5 * (2 ** attempt)
             print(f"rate limited ({resp.status_code}) on {url}; sleeping {wait}s", file=sys.stderr)
@@ -121,6 +125,32 @@ def github_get(session: requests.Session, url: str, params: dict | None = None, 
             continue
         resp.raise_for_status()
     raise RuntimeError(f"gave up after {retries} attempts: {url}")
+
+
+def search_repos(session: requests.Session, repos: list[str], max_query_chars: int = 240) -> dict[str, dict]:
+    """Look repos up through GET /search/repositories (qualifiers repo:owner/name OR'd per query).
+
+    Returns {full_name_lower: item}. The search API returns the same fields as /repos/{owner}/{repo}
+    (stargazers_count, forks_count, pushed_at, archived, license, default_branch). It is the fallback
+    for environments whose GitHub proxy blocks /repos/{owner}/{repo} for repositories other than the
+    session's own, such as Claude Code cloud routines. Rate limit: 30 requests/minute when authenticated.
+    """
+    found: dict[str, dict] = {}
+    chunks: list[list[str]] = [[]]
+    for r in repos:  # GitHub caps a search query at 256 characters; "fork:true" keeps forks visible
+        if chunks[-1] and len(" ".join(f"repo:{x}" for x in chunks[-1] + [r])) + len(" fork:true") > max_query_chars:
+            chunks.append([])
+        chunks[-1].append(r)
+    for chunk in chunks:
+        q = " ".join(f"repo:{r}" for r in chunk) + " fork:true"
+        resp = github_get(session, f"{API}/search/repositories", params={"q": q, "per_page": 100})
+        if resp.status_code != 200:
+            print(f"warning: search lookup failed ({resp.status_code}) for {chunk}", file=sys.stderr)
+            continue
+        for item in resp.json().get("items", []):
+            found[item["full_name"].lower()] = item
+        time.sleep(2.1)  # stay under 30 search requests per minute
+    return found
 
 
 def fmt_stars(n: int) -> str:

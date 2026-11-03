@@ -62,6 +62,8 @@ def main() -> int:
             "repo": name, "stars": item["stargazers_count"], "forks": item["forks_count"],
             "created_at": item["created_at"], "pushed_at": item["pushed_at"], "archived": item["archived"],
             "fork": item["fork"], "license": (item.get("license") or {}).get("spdx_id"),
+            "default_branch": item.get("default_branch"),
+            "readme_url": f"https://raw.githubusercontent.com/{name}/{item.get('default_branch', 'main')}/README.md",
             "description": (item.get("description") or "")[:200], "topics": item.get("topics", [])[:10],
             "url": item["html_url"], "sources": [],
         })

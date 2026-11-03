@@ -5,7 +5,7 @@ This list ranks open-source AI projects by live GitHub stars. Stars measure popu
 ## Data sources
 
 - Star counts, fork counts, last push date, archived flag and license come from the GitHub REST API (`GET /repos/{owner}/{repo}` -> `stargazers_count`, `forks_count`, `pushed_at`, `archived`, `license.spdx_id`). No star count is ever typed by hand.
-- `scripts/refresh_stars.py` writes those fields into `data/projects.yaml` and stores a dated copy in `data/snapshots/YYYY-MM-DD.json`.
+- `scripts/refresh_stars.py` writes those fields into `data/projects.yaml` and stores a dated copy in `data/snapshots/YYYY-MM-DD.json`. Where a sandboxed environment blocks `/repos/{owner}/{repo}` for repositories other than this one (the Claude Code cloud routine runs in such a sandbox), the script switches to `GET /search/repositories?q=repo:a/b+repo:c/d`, which returns the same fields from the same API. In that mode an entry the search cannot find keeps its previous values and is reported for a human to check, never demoted.
 - `scripts/discover.py` searches GitHub for candidates above the current #53 threshold. Candidates are classified by a human (or the weekly routine, whose PR a human reviews); nothing enters the list automatically.
 - The README shows a shields.io badge per project, which renders the live count at view time. The rank is computed from the API count at the last refresh, so badge and rank can drift between refreshes.
 
