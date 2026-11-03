@@ -1,0 +1,68 @@
+name: Add a project
+description: Propose a project for the list. Maintainers fetch the star count from the API; do not type it.
+title: "Add: <owner/repo>"
+labels: [candidate]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: owner/repo on GitHub (canonical repo, not a fork or mirror)
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - foundations
+        - data-rag
+        - training
+        - evaluation
+        - inference
+        - agent-frameworks
+        - coding-agents
+        - assistants
+        - agent-skills
+        - agent-memory
+        - chat-uis
+        - generative-media
+        - vertical-apps
+        - safety
+        - mlops
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: House style, lowercase, under 80 characters, no marketing words, no trailing period
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Inclusion rules
+      options:
+        - label: AI/ML is the project's primary purpose
+          required: true
+        - label: Open source or source-available (say so below if the license is fair-code or modified)
+          required: true
+        - label: Pushed in the last 183 days and not archived
+          required: true
+        - label: Software, not a course, book, list or prompt collection (otherwise propose it for the learning appendix)
+          required: true
+        - label: Passes the responsible-use rule
+          required: true
+  - type: checkboxes
+    id: tooling
+    attributes:
+      label: Claude Code
+      options:
+        - label: Installs into Claude Code (plugin, skill, agents, MCP server or CLI)
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: License flags, provenance concerns, or why it belongs in a practitioner-picks list

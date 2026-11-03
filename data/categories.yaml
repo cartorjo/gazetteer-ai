@@ -1,0 +1,76 @@
+# Lifecycle categories for awesome-ai-stars. Order here is the order in README.md.
+- id: foundations
+  title: Foundations
+  definition: core deep learning frameworks and model-definition libraries
+  stage: Build
+  order: 1
+- id: data-rag
+  title: Data, Retrieval and RAG
+  definition: ingestion, crawling, OCR, retrieval and vector stores
+  stage: Data
+  order: 2
+- id: training
+  title: Training and Post-Training
+  definition: fine-tuning, distributed training, RLHF/GRPO and PEFT
+  stage: Train/Align
+  order: 3
+- id: evaluation
+  title: Evaluation and Interpretability
+  definition: benchmarks, eval harnesses and mechanistic interpretability
+  stage: Evaluate
+  order: 4
+- id: inference
+  title: Inference and Local Runtimes
+  definition: serving engines, local runtimes and quantization
+  stage: Serve
+  order: 5
+- id: agent-frameworks
+  title: Agent Frameworks and Workflow Builders
+  definition: SDKs and visual builders for agents and workflows
+  stage: Apply
+  order: 6
+- id: coding-agents
+  title: Coding Agents and Harnesses
+  definition: terminal and IDE coding agents and harness runtimes
+  stage: Apply
+  order: 7
+- id: assistants
+  title: Personal and Multi-Agent Assistants
+  definition: always-on assistants and agent fleet managers
+  stage: Apply
+  order: 8
+- id: agent-skills
+  title: Agent Skills and Methodologies
+  definition: SKILL.md packs, personas and spec-driven methods
+  stage: Apply
+  order: 9
+- id: agent-memory
+  title: Agent Memory and Code Understanding
+  definition: persistent memory and code knowledge graphs
+  stage: Apply
+  order: 10
+- id: chat-uis
+  title: Chat UIs and Workspaces
+  definition: end-user chat front-ends
+  stage: Apply
+  order: 11
+- id: generative-media
+  title: Generative Media
+  definition: image, video and audio generation tooling
+  stage: Apply
+  order: 12
+- id: vertical-apps
+  title: Vertical AI Apps
+  definition: domain applications
+  stage: Apply
+  order: 13
+- id: safety
+  title: Safety and Guardrails
+  definition: input and output filtering and policy enforcement
+  stage: Govern
+  order: 14
+- id: mlops
+  title: MLOps and Observability
+  definition: tracking, tracing, gateways and evals in production
+  stage: Operate
+  order: 15
