@@ -1,4 +1,4 @@
-"""Shared helpers for the awesome-ai-stars scripts (YAML I/O, paths, GitHub session)."""
+"""Shared helpers for the gazetteer-ai scripts (YAML I/O, paths, GitHub session)."""
 
 from __future__ import annotations
 
@@ -21,7 +21,7 @@ CANDIDATES = DATA / "candidates.json"
 DOCS = ROOT / "docs"
 TEMPLATES = ROOT / "templates"
 API = "https://api.github.com"
-LIST_REPO = "cartorjo/awesome-ai-stars"  # this list's own repo, used for absolute doc links
+LIST_REPO = "cartorjo/gazetteer-ai"  # this list's own repo, used for absolute doc links
 
 STATUSES = ("ranked", "practitioner-pick", "rising", "learning", "excluded", "review")
 LICENSE_FLAGS = ("fair-code", "modified-apache", "modified-bsd", "mixed")
@@ -30,7 +30,7 @@ TOP_N = 48
 NEAR_MISS_N = 5
 
 PROJECTS_HEADER = (
-    "# Single source of truth for awesome-ai-stars. Edit this file, never README.md.\n"
+    "# Single source of truth for gazetteer-ai. Edit this file, never README.md.\n"
     "# Field reference: see CONTRIBUTING.md. stars/forks/pushed_at/license/archived/"
     "stars_checked are written by scripts/refresh_stars.py.\n"
 )
@@ -87,7 +87,7 @@ def github_session() -> requests.Session:
     s.headers.update({
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": "awesome-ai-stars",
+        "User-Agent": "gazetteer-ai-list",
     })
     token = github_token()
     if token:

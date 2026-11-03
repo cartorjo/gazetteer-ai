@@ -1,7 +1,7 @@
 [project]
-name = "awesome-ai-stars"
+name = "gazetteer-ai"
 version = "0.1.0"
-description = "Scripts that keep the awesome-ai-stars list data-driven"
+description = "Scripts that keep the gazetteer-ai list data-driven"
 requires-python = ">=3.12"
 license = "MIT"
 dependencies = [

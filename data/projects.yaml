@@ -1,4 +1,4 @@
-# Single source of truth for awesome-ai-stars. Edit this file, never README.md.
+# Single source of truth for gazetteer-ai. Edit this file, never README.md.
 # Field reference: see CONTRIBUTING.md. stars/forks/pushed_at/license/archived/stars_checked are written by scripts/refresh_stars.py.
 - id: openclaw
   name: OpenClaw
