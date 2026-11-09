@@ -18,3 +18,11 @@ Weekly entries, exits, rank moves of three or more places, new `review` flags an
 - Rank moves of 3+ places: every previously ranked entry below #35 moved down 3 or more places because of the new entries above it (for example vllm 42 -> 46, ragflow 43 -> 47, openhands 45 -> 49, crawl4ai 50 -> 55); no entry moved because of its own star change.
 - New `review` flags: moli (star/fork ratio 36.3 above 3x cohort median); voicestudio (human decision: voice cloning and dubbing against the responsible-use rule). odysseus stays in review.
 - Newly inactive: funnlp (no push since 2024-05-10) was added as learning and demoted to excluded; deepseek-r1 recorded as excluded (model release, inactive).
+
+## 2026-11-09 - weekly update (3 new, 0 out)
+
+- Entries into the top 48: none. Exits from the top 48: none. The cut-off (#48 ragflow) is unchanged and no candidate came near the #53 threshold of 90,386 stars; the three candidates found were all created in the last 90 days with 20K-23K stars.
+- Added below the top 48: dsh-superagent (ranked, #68; deepseek-ai research prototype of a proactive coding agent, MIT). craft-anything (review, see below). pdfcraft recorded as excluded (not AI/ML-first, a PDF reader and editor) so discovery stops resurfacing it.
+- Rank moves of 3+ places: none among entries ranked last week.
+- New `review` flags: craft-anything (human decision: tool for recreating any website, app or game against the responsible-use rule; 23K stars in 9 days). Existing review entries odysseus, voicestudio and moli stay in review.
+- Newly inactive: none.
