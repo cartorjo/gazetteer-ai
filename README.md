@@ -2,7 +2,7 @@
 
 > The 48 most-starred open-source AI projects, ranked by live GitHub stars across 15 lifecycle categories.
 
-Last refreshed: 2026-11-03. Stars measure popularity, not quality or production readiness. This file is generated from `data/projects.yaml` by `scripts/build_readme.py`; never hand-edit it.
+Last refreshed: 2026-11-09. Stars measure popularity, not quality or production readiness. This file is generated from `data/projects.yaml` by `scripts/build_readme.py`; never hand-edit it.
 
 ## Contents
 
@@ -129,8 +129,8 @@ Always-on assistants and agent fleet managers. Lifecycle stage: Apply.
 
 SKILL.md packs, personas and spec-driven methods. Lifecycle stage: Apply.
 
-- [superpowers](https://github.com/obra/superpowers) - Spec, plan, TDD and subagent-driven development skills. ![stars](https://img.shields.io/github/stars/obra/superpowers?style=flat-square&label=stars)
 - [mattpocock/skills](https://github.com/mattpocock/skills) - Small, composable engineering skills for coding agents. ![stars](https://img.shields.io/github/stars/mattpocock/skills?style=flat-square&label=stars)
+- [superpowers](https://github.com/obra/superpowers) - Spec, plan, TDD and subagent-driven development skills. ![stars](https://img.shields.io/github/stars/obra/superpowers?style=flat-square&label=stars)
 - [ECC](https://github.com/affaan-m/ECC) - Skills, instincts, memory and security for agent harnesses. ![stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat-square&label=stars)
 - [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's public skills for Claude, from documents to MCP generation (license: mixed). ![stars](https://img.shields.io/github/stars/anthropics/skills?style=flat-square&label=stars)
 - [ponytail](https://github.com/DietrichGebert/ponytail) - Simplicity and YAGNI decision discipline. ![stars](https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&label=stars)
@@ -201,8 +201,8 @@ Ranks 49 to 53. They enter the list automatically when they overtake an entry ab
 
 - [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven software development platform. ![stars](https://img.shields.io/github/stars/OpenHands/OpenHands?style=flat-square&label=stars)
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - PDFs and images to LLM-ready structured data. ![stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square&label=stars)
-- [OpenCV](https://github.com/opencv/opencv) - Computer vision library with a deep learning module. ![stars](https://img.shields.io/github/stars/opencv/opencv?style=flat-square&label=stars)
 - [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) - Interactive codebase knowledge graph. ![stars](https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=flat-square&label=stars)
+- [OpenCV](https://github.com/opencv/opencv) - Computer vision library with a deep learning module. ![stars](https://img.shields.io/github/stars/opencv/opencv?style=flat-square&label=stars)
 - [worldmonitor](https://github.com/koala73/worldmonitor) - AI-powered global news and situational dashboard. ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat-square&label=stars)
 
 ## Rising skills
