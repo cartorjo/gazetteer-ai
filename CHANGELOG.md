@@ -18,3 +18,13 @@ Weekly entries, exits, rank moves of three or more places, new `review` flags an
 - Rank moves of 3+ places: every previously ranked entry below #35 moved down 3 or more places because of the new entries above it (for example vllm 42 -> 46, ragflow 43 -> 47, openhands 45 -> 49, crawl4ai 50 -> 55); no entry moved because of its own star change.
 - New `review` flags: moli (star/fork ratio 36.3 above 3x cohort median); voicestudio (human decision: voice cloning and dubbing against the responsible-use rule). odysseus stays in review.
 - Newly inactive: funnlp (no push since 2024-05-10) was added as learning and demoted to excluded; deepseek-r1 recorded as excluded (model release, inactive).
+
+## 2026-11-16 - weekly update (3 new, 0 out)
+
+- Entries into the top 48: none. The set of ranks 1-53 is unchanged; no candidate exceeded the #53 threshold (90,721 stars).
+- Added below the top 53 (ranked): craft-anything, dsh-go, dsh-superagent-prototype. Recorded as excluded (not AI/ML-first) so discovery stops resurfacing them: pdfcraft, droiddeck.
+- Exits from the top 48: none.
+- Rank moves of 3+ places (star changes only): ui-ux-pro-max-skill 25 -> 22, orca 35 -> 31, impeccable 45 -> 41, omniroute 58 -> 55.
+- Top 10: firecrawl replaced tensorflow at #10; mattpocock-skills and superpowers swapped #3 and #4.
+- New `review` flags: none. odysseus, voicestudio and moli stay in review.
+- Newly inactive: none.
