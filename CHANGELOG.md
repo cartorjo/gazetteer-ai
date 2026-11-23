@@ -18,3 +18,12 @@ Weekly entries, exits, rank moves of three or more places, new `review` flags an
 - Rank moves of 3+ places: every previously ranked entry below #35 moved down 3 or more places because of the new entries above it (for example vllm 42 -> 46, ragflow 43 -> 47, openhands 45 -> 49, crawl4ai 50 -> 55); no entry moved because of its own star change.
 - New `review` flags: moli (star/fork ratio 36.3 above 3x cohort median); voicestudio (human decision: voice cloning and dubbing against the responsible-use rule). odysseus stays in review.
 - Newly inactive: funnlp (no push since 2024-05-10) was added as learning and demoted to excluded; deepseek-r1 recorded as excluded (model release, inactive).
+
+## 2026-11-23 - weekly update (6 new, 0 out)
+
+- Entries into the top 48: none. No exits from the top 48 or the near misses.
+- Added below the near misses (ranked): craft-anything, dsh-go, dsh-superagent-prototype, elephant-goldfish-model, unslop, lemo-opuscar (license_flag mixed: code MIT, docs CC BY-NC 4.0).
+- Recorded as excluded so discovery stops resurfacing them: pdfcraft and droiddeck (not AI/ML-first).
+- Rank moves of 3+ places: ui-ux-pro-max-skill 25 -> 22, graphify 26 -> 23, langchain 22 -> 25, orca 35 -> 31, browser-use 32 -> 35, taste-skill 39 -> 36, impeccable 45 -> 40, gemini-cli 40 -> 43 (all from star changes).
+- New `review` flags: gpu-unlock (boot-time hardware/firmware modification that bypasses vendor limits; AI-first scope and safety need a human decision). odysseus, voicestudio and moli stay in review.
+- Newly inactive: none.
